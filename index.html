@@ -23,4 +23,566 @@
     --amber:     #f59e0b;
     --purple:    #8b5cf6;
     --mono:      'IBM Plex Mono', monospace;
-    --sans:      'IBM Plex Sans',
+    --sans:      'IBM Plex Sans', sans-serif;
+    --display:   'Syne', sans-serif;
+    --r:         6px;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 14px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+  .layout { display: grid; grid-template-columns: 240px 1fr; min-height: 100vh; }
+  .sidebar {
+    background: var(--bg2);
+    border-right: 1px solid var(--border);
+    padding: 0;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .main { overflow: hidden; }
+  .logo { padding: 24px 20px 20px; border-bottom: 1px solid var(--border); }
+  .logo-mark { font-family: var(--display); font-weight: 800; font-size: 18px; letter-spacing: -0.5px; color: var(--text); line-height: 1.1; }
+  .logo-mark span { color: var(--accent); }
+  .logo-sub { font-size: 10px; color: var(--muted); font-family: var(--mono); margin-top: 4px; letter-spacing: 0.5px; text-transform: uppercase; }
+  .nav-section { padding: 16px 12px 8px; }
+  .nav-label { font-size: 9px; font-family: var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: 1px; padding: 0 8px; margin-bottom: 6px; }
+  .nav-item { display: flex; align-items: center; gap: 8px; padding: 7px 8px; border-radius: var(--r); cursor: pointer; color: var(--muted); font-size: 13px; transition: all 0.15s; border: none; background: none; width: 100%; text-align: left; font-family: var(--sans); }
+  .nav-item:hover { background: var(--bg3); color: var(--text); }
+  .nav-item.active { background: rgba(59,130,246,0.15); color: var(--accent); }
+  .nav-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+  .sidebar-footer { margin-top: auto; padding: 16px 20px; border-top: 1px solid var(--border); }
+  .refresh-badge { font-family: var(--mono); font-size: 10px; color: var(--muted); }
+  .refresh-badge span { color: var(--green); }
+  .page-header { padding: 28px 32px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .page-title { font-family: var(--display); font-size: 28px; font-weight: 800; letter-spacing: -1px; color: var(--text); line-height: 1; }
+  .page-desc { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .header-controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  select, input[type=text] { background: var(--bg3); border: 1px solid var(--border2); color: var(--text); font-family: var(--sans); font-size: 12px; padding: 6px 10px; border-radius: var(--r); outline: none; cursor: pointer; transition: border-color 0.15s; }
+  select:hover, input:hover { border-color: rgba(255,255,255,0.25); }
+  select:focus, input:focus { border-color: var(--accent); }
+  .btn { background: var(--bg3); border: 1px solid var(--border2); color: var(--text); font-family: var(--mono); font-size: 11px; padding: 6px 12px; border-radius: var(--r); cursor: pointer; transition: all 0.15s; white-space: nowrap; }
+  .btn:hover { background: var(--bg2); border-color: rgba(255,255,255,0.25); }
+  .btn-accent { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .btn-accent:hover { background: #2563eb; border-color: #2563eb; }
+  .content { padding: 24px 32px; }
+  .metric-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .metric-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--r); padding: 16px 18px; position: relative; overflow: hidden; }
+  .metric-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--accent-color, var(--accent)); }
+  .metric-label { font-size: 10px; color: var(--muted); font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.5px; }
+  .metric-value { font-size: 24px; font-weight: 700; font-family: var(--display); margin: 6px 0 2px; line-height: 1; }
+  .metric-sub { font-size: 11px; color: var(--muted); font-family: var(--mono); }
+  .chart-grid { display: grid; gap: 16px; }
+  .chart-grid-2 { grid-template-columns: 1fr 1fr; }
+  .chart-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--r); padding: 20px; }
+  .chart-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; gap: 12px; flex-wrap: wrap; }
+  .chart-title { font-family: var(--display); font-size: 14px; font-weight: 700; color: var(--text); }
+  .chart-meta { font-size: 10px; color: var(--muted); font-family: var(--mono); margin-top: 3px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 12px; }
+  .legend-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--muted); font-family: var(--mono); cursor: pointer; }
+  .legend-item:hover { color: var(--text); }
+  .legend-dot { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 12px; font-family: var(--mono); }
+  th { color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); white-space: nowrap; font-weight: 500; }
+  td { padding: 8px 12px; border-bottom: 1px solid var(--border); color: var(--text); white-space: nowrap; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--bg3); }
+  .tag { display: inline-block; padding: 2px 7px; border-radius: 3px; font-size: 10px; font-family: var(--mono); }
+  .tag-blue  { background: rgba(59,130,246,0.15); color: var(--accent); }
+  .tag-cyan  { background: rgba(6,182,212,0.15);  color: var(--accent2); }
+  .tag-green { background: rgba(16,185,129,0.15); color: var(--green); }
+  .tag-amber { background: rgba(245,158,11,0.15); color: var(--amber); }
+  .tag-red   { background: rgba(239,68,68,0.15);  color: var(--red); }
+  .tab-bar { display: flex; gap: 2px; margin-bottom: 20px; border-bottom: 1px solid var(--border); }
+  .tab-btn { padding: 8px 16px; font-family: var(--mono); font-size: 11px; color: var(--muted); background: none; border: none; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; transition: all 0.15s; }
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .loader-wrap { display: flex; align-items: center; justify-content: center; min-height: 300px; flex-direction: column; gap: 12px; }
+  .loader { width: 32px; height: 32px; border: 2px solid var(--border2); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loader-text { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+  .error-box { background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.2); border-radius: var(--r); padding: 16px; font-family: var(--mono); font-size: 12px; color: var(--red); }
+  .section { display: none; }
+  .section.active { display: block; }
+  .section-gap { display: flex; flex-direction: column; gap: 16px; }
+  .filter-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
+  .filter-row label { font-size: 10px; color: var(--muted); font-family: var(--mono); white-space: nowrap; }
+  ::-webkit-scrollbar { width: 4px; height: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { position: static; height: auto; flex-direction: row; flex-wrap: wrap; }
+    .chart-grid-2 { grid-template-columns: 1fr; }
+    .content { padding: 16px; }
+    .page-header { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="logo">
+      <div class="logo-mark">ECB<span>.</span>DATA</div>
+      <div class="logo-sub">Industry Intelligence Platform</div>
+    </div>
+    <div class="nav-section">
+      <div class="nav-label">Overview</div>
+      <button class="nav-item active" onclick="showSection('overview', this)"><span class="nav-dot" style="background:#3b82f6"></span> Dashboard</button>
+      <button class="nav-item" onclick="showSection('explorer', this)"><span class="nav-dot" style="background:#06b6d4"></span> Data Explorer</button>
+    </div>
+    <div class="nav-section">
+      <div class="nav-label">Themes</div>
+      <button class="nav-item" onclick="showSection('lending', this)"><span class="nav-dot" style="background:#10b981"></span> Bank Lending</button>
+      <button class="nav-item" onclick="showSection('rates', this)"><span class="nav-dot" style="background:#f59e0b"></span> Interest Rates</button>
+      <button class="nav-item" onclick="showSection('money', this)"><span class="nav-dot" style="background:#8b5cf6"></span> Money Supply</button>
+      <button class="nav-item" onclick="showSection('inflation', this)"><span class="nav-dot" style="background:#ef4444"></span> Inflation</button>
+    </div>
+    <div class="nav-section">
+      <div class="nav-label">Export</div>
+      <button class="nav-item" onclick="downloadAllCSV()"><span class="nav-dot" style="background:#6b7590"></span> Download CSV</button>
+    </div>
+    <div class="sidebar-footer">
+      <div class="refresh-badge">Last refresh<br><span id="lastRefresh">—</span></div>
+    </div>
+  </aside>
+  <main class="main">
+    <div class="page-header">
+      <div>
+        <div class="page-title" id="pageTitle">Dashboard</div>
+        <div class="page-desc" id="pageDesc">Euro area macroeconomic and financial overview</div>
+      </div>
+      <div class="header-controls">
+        <label style="font-size:11px;color:var(--muted);font-family:var(--mono)">Country</label>
+        <select id="globalCountry" onchange="updateAll()">
+          <option value="U2">Euro area</option>
+          <option value="DE">Germany</option>
+          <option value="FR">France</option>
+          <option value="IT">Italy</option>
+          <option value="ES">Spain</option>
+          <option value="NL">Netherlands</option>
+          <option value="BE">Belgium</option>
+          <option value="AT">Austria</option>
+          <option value="IE">Ireland</option>
+          <option value="PT">Portugal</option>
+        </select>
+        <label style="font-size:11px;color:var(--muted);font-family:var(--mono)">From</label>
+        <select id="globalStart" onchange="updateAll()">
+          <option value="2000">2000</option>
+          <option value="2005">2005</option>
+          <option value="2010">2010</option>
+          <option value="2015" selected>2015</option>
+          <option value="2018">2018</option>
+          <option value="2020">2020</option>
+          <option value="2022">2022</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="sec-overview" class="section active">
+      <div class="content">
+        <div id="overviewLoader" class="loader-wrap">
+          <div class="loader"></div>
+          <div class="loader-text">Loading ECB data…</div>
+        </div>
+        <div id="overviewContent" style="display:none">
+          <div class="metric-grid" id="overviewMetrics"></div>
+          <div class="chart-grid section-gap">
+            <div class="chart-card">
+              <div class="chart-header"><div>
+                <div class="chart-title">NFC bank lending — annual growth rate</div>
+                <div class="chart-meta">Source: ECB BSI | Monthly | %</div>
+              </div></div>
+              <div style="position:relative;height:220px"><canvas id="chartGrowth" role="img" aria-label="NFC loan annual growth rate over time"></canvas></div>
+            </div>
+            <div class="chart-grid chart-grid-2">
+              <div class="chart-card">
+                <div class="chart-header"><div>
+                  <div class="chart-title">ECB policy rates</div>
+                  <div class="chart-meta">Source: ECB FM | Monthly | %</div>
+                </div></div>
+                <div style="position:relative;height:200px"><canvas id="chartPolicy" role="img" aria-label="ECB policy rates over time"></canvas></div>
+              </div>
+              <div class="chart-card">
+                <div class="chart-header"><div>
+                  <div class="chart-title">HICP inflation</div>
+                  <div class="chart-meta">Source: ECB ICP | Monthly | %</div>
+                </div></div>
+                <div style="position:relative;height:200px"><canvas id="chartHICP" role="img" aria-label="HICP inflation rate over time"></canvas></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sec-lending" class="section">
+      <div class="content">
+        <div id="lendingContent">
+          <div class="filter-row">
+            <label>Metric</label>
+            <select id="lendingMetric" onchange="renderLending()">
+              <option value="outstanding">Outstanding amounts (€bn)</option>
+              <option value="growth">Year-on-year growth (%)</option>
+            </select>
+          </div>
+          <div class="chart-card" style="margin-bottom:16px">
+            <div class="chart-header"><div>
+              <div class="chart-title">MFI loans by sector — time series</div>
+              <div class="chart-meta">Source: ECB LBSI | Quarterly</div>
+            </div></div>
+            <div class="legend" id="lendingLegend"></div>
+            <div style="position:relative;height:300px"><canvas id="chartLending" role="img" aria-label="MFI loans by NACE sector over time"></canvas></div>
+          </div>
+          <div class="chart-grid chart-grid-2">
+            <div class="chart-card">
+              <div class="chart-header"><div>
+                <div class="chart-title">Sector share (latest)</div>
+                <div class="chart-meta">% of total outstanding</div>
+              </div></div>
+              <div style="position:relative;height:240px"><canvas id="chartLendingPie" role="img" aria-label="Sector share of total lending"></canvas></div>
+            </div>
+            <div class="chart-card">
+              <div class="chart-header"><div>
+                <div class="chart-title">YoY growth by sector (latest)</div>
+                <div class="chart-meta">Annual growth rate %</div>
+              </div></div>
+              <div style="position:relative;height:240px"><canvas id="chartLendingBar" role="img" aria-label="Year-on-year growth by sector"></canvas></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sec-rates" class="section">
+      <div class="content section-gap">
+        <div class="chart-card">
+          <div class="chart-header"><div>
+            <div class="chart-title">Euribor rates</div>
+            <div class="chart-meta">Source: ECB FM | Monthly | %</div>
+          </div></div>
+          <div style="position:relative;height:240px"><canvas id="chartEuribor" role="img" aria-label="Euribor rates over time"></canvas></div>
+        </div>
+        <div class="chart-grid chart-grid-2">
+          <div class="chart-card">
+            <div class="chart-header"><div>
+              <div class="chart-title">MFI lending rates — NFCs</div>
+              <div class="chart-meta">Source: ECB MIR | Monthly | %</div>
+            </div></div>
+            <div style="position:relative;height:220px"><canvas id="chartMIR_NFC" role="img" aria-label="MFI lending rates to NFCs"></canvas></div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-header"><div>
+              <div class="chart-title">MFI lending rates — households</div>
+              <div class="chart-meta">Source: ECB MIR | Monthly | %</div>
+            </div></div>
+            <div style="position:relative;height:220px"><canvas id="chartMIR_HH" role="img" aria-label="MFI lending rates to households"></canvas></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sec-money" class="section">
+      <div class="content section-gap">
+        <div class="chart-card">
+          <div class="chart-header"><div>
+            <div class="chart-title">Monetary aggregates — outstanding amounts</div>
+            <div class="chart-meta">Source: ECB BSI | Monthly | €bn</div>
+          </div></div>
+          <div style="position:relative;height:260px"><canvas id="chartMoney" role="img" aria-label="M1 and M3 outstanding amounts"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header"><div>
+            <div class="chart-title">M3 annual growth rate</div>
+            <div class="chart-meta">Source: ECB BSI | Monthly | %</div>
+          </div></div>
+          <div style="position:relative;height:200px"><canvas id="chartM3Growth" role="img" aria-label="M3 annual growth rate"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sec-inflation" class="section">
+      <div class="content section-gap">
+        <div class="chart-card">
+          <div class="chart-header"><div>
+            <div class="chart-title">HICP — breakdown by component</div>
+            <div class="chart-meta">Source: ECB ICP | Monthly | annual % change</div>
+          </div></div>
+          <div style="position:relative;height:280px"><canvas id="chartInflation" role="img" aria-label="HICP inflation by component"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sec-explorer" class="section">
+      <div class="content">
+        <div class="filter-row" style="margin-bottom:20px">
+          <label>Dataset</label>
+          <select id="expDataset" onchange="filterExplorer()">
+            <option value="">All datasets</option>
+            <option value="LBSI">LBSI — Loans by sector</option>
+            <option value="BSI">BSI — Balance sheet items</option>
+            <option value="MIR">MIR — MFI interest rates</option>
+            <option value="FM">FM — Financial markets</option>
+            <option value="ICP">ICP — Inflation</option>
+          </select>
+          <label>Theme</label>
+          <select id="expTheme" onchange="filterExplorer()">
+            <option value="">All themes</option>
+            <option>Bank lending by sector</option>
+            <option>Money, credit & banking</option>
+            <option>Interest rates</option>
+            <option>ECB policy rates</option>
+            <option>Inflation</option>
+          </select>
+          <input type="text" id="expSearch" placeholder="Search series…" oninput="filterExplorer()" style="width:180px">
+          <button class="btn btn-accent" onclick="downloadFilteredCSV()">↓ CSV</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Dataset</th><th>Country</th><th>Series</th>
+                <th>Sector</th><th>Unit</th><th>Latest period</th>
+                <th style="text-align:right">Latest value</th><th>Theme</th>
+              </tr>
+            </thead>
+            <tbody id="explorerBody"></tbody>
+          </table>
+        </div>
+        <div id="explorerCount" style="margin-top:12px;font-family:var(--mono);font-size:10px;color:var(--muted)"></div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<script>
+const state = { data: {}, loaded: false };
+const charts = {};
+const COLORS = ['#3b82f6','#10b981','#f59e0b','#ef4444','#8b5cf6','#06b6d4','#ec4899','#84cc16','#f97316','#a78bfa','#34d399','#fbbf24'];
+const DATASET_TAGS = { LBSI: 'tag-green', BSI: 'tag-blue', MIR: 'tag-amber', FM: 'tag-cyan', ICP: 'tag-red' };
+
+async function loadData() {
+  try {
+    const manifest = await fetchJSON('data/manifest.json');
+    if (manifest?.generated_at) {
+      document.getElementById('lastRefresh').textContent = new Date(manifest.generated_at).toLocaleString('en-IE', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' });
+    }
+    const datasets = ['LBSI','BSI','MIR','FM','ICP'];
+    const results = await Promise.allSettled(datasets.map(ds => fetchJSON(`data/${ds}.json`)));
+    results.forEach((r, i) => { if (r.status === 'fulfilled' && r.value?.series) state.data[datasets[i]] = r.value.series; });
+    state.loaded = true;
+    renderAll();
+  } catch (err) {
+    document.getElementById('overviewLoader').innerHTML = `<div class="error-box">Failed to load data: ${err.message}. Make sure the scraper has run and data/ files exist.</div>`;
+  }
+}
+
+async function fetchJSON(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`HTTP ${r.status} for ${url}`);
+  return r.json();
+}
+
+function cc() { return document.getElementById('globalCountry').value; }
+function startYear() { return parseInt(document.getElementById('globalStart').value); }
+
+function getSeries(dataset, sectorCode, countryCode = null) {
+  const country = countryCode ?? cc();
+  return (state.data[dataset] || []).find(s => s.sector_code === sectorCode && s.country_code === country);
+}
+
+function filterByStart(obs) {
+  const y = startYear();
+  return (obs || []).filter(o => parseInt(o.period.split('-')[0]) >= y);
+}
+
+function latestVal(obs) { const o = obs?.[obs.length - 1]; return o ? o.value : null; }
+
+function fmtShort(v, unit) {
+  if (v == null) return '—';
+  if (unit === 'EUR') return '€' + (v / 1e9).toFixed(0) + 'bn';
+  if (unit === 'PCT') return v.toFixed(1) + '%';
+  return v.toFixed(1);
+}
+
+function destroyChart(id) { if (charts[id]) { charts[id].destroy(); delete charts[id]; } }
+
+const LINE_OPTIONS = (yLabel = '') => ({
+  responsive: true, maintainAspectRatio: false, animation: false,
+  plugins: { legend: { display: false }, tooltip: { mode: 'index', intersect: false, backgroundColor: '#10151e', borderColor: 'rgba(255,255,255,0.1)', borderWidth: 1, titleColor: '#6b7590', bodyColor: '#e8eaf0', titleFont: { family: 'IBM Plex Mono', size: 10 }, bodyFont: { family: 'IBM Plex Mono', size: 11 } } },
+  scales: {
+    x: { ticks: { color: '#6b7590', font: { family: 'IBM Plex Mono', size: 9 }, maxTicksLimit: 10 }, grid: { color: 'rgba(255,255,255,0.04)' } },
+    y: { ticks: { color: '#6b7590', font: { family: 'IBM Plex Mono', size: 9 }, callback: v => yLabel === '%' ? v.toFixed(1) + '%' : v >= 1000 ? '€' + (v/1000).toFixed(0) + 'T' : '€' + v.toFixed(0) + 'bn' }, grid: { color: 'rgba(255,255,255,0.04)' } }
+  }
+});
+
+function obsToChart(obs, unit) {
+  const filtered = filterByStart(obs);
+  return { labels: filtered.map(o => o.period), data: filtered.map(o => unit === 'EUR' ? Math.round(o.value / 1e9 * 10) / 10 : Math.round(o.value * 100) / 100) };
+}
+
+function renderAll() { renderOverview(); renderLending(); renderRates(); renderMoney(); renderInflation(); renderExplorer(); }
+function updateAll() { renderAll(); }
+
+function renderOverview() {
+  if (!state.loaded) return;
+  document.getElementById('overviewLoader').style.display = 'none';
+  document.getElementById('overviewContent').style.display = '';
+  const nfcGrObs = getSeries('BSI', 'NFC_growth')?.observations;
+  const mrrObs   = getSeries('FM',  'ECB_MRR', 'U2')?.observations;
+  const hicpObs  = getSeries('ICP', 'HICP_all')?.observations;
+  const nfcObs   = getSeries('BSI', 'NFC_total')?.observations;
+  const m3Obs    = getSeries('BSI', 'M3', 'U2')?.observations;
+  const latestGr = latestVal(nfcGrObs);
+  document.getElementById('overviewMetrics').innerHTML = [
+    { label: 'NFC loans outstanding',  value: fmtShort(latestVal(nfcObs), 'EUR'),  sub: 'latest month',  color: '#3b82f6' },
+    { label: 'NFC loans growth',       value: latestGr != null ? latestGr.toFixed(1) + '%' : '—', sub: 'annual rate', color: latestGr >= 0 ? '#10b981' : '#ef4444' },
+    { label: 'ECB main refi rate',     value: fmtShort(latestVal(mrrObs), 'PCT'),  sub: 'latest',        color: '#f59e0b' },
+    { label: 'HICP inflation',         value: fmtShort(latestVal(hicpObs), 'PCT'), sub: 'annual rate',   color: '#ef4444' },
+    { label: 'M3 outstanding',         value: fmtShort(latestVal(m3Obs), 'EUR'),   sub: 'latest month',  color: '#8b5cf6' },
+  ].map(m => `<div class="metric-card" style="--accent-color:${m.color}"><div class="metric-label">${m.label}</div><div class="metric-value" style="color:${m.color}">${m.value}</div><div class="metric-sub">${m.sub}</div></div>`).join('');
+
+  if (nfcGrObs) {
+    destroyChart('Growth');
+    const { labels, data } = obsToChart(nfcGrObs, 'PCT');
+    charts['Growth'] = new Chart(document.getElementById('chartGrowth'), { type: 'line', data: { labels, datasets: [{ label: 'NFC loan growth %', data, borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.08)', borderWidth: 1.5, pointRadius: 0, tension: 0.3, fill: true }] }, options: LINE_OPTIONS('%') });
+  }
+
+  const policyDefs = [{ code: 'ECB_MRR', label: 'Main refi', color: '#f59e0b' }, { code: 'ECB_DFR', label: 'Deposit facility', color: '#3b82f6' }, { code: 'ECB_MLF', label: 'Marginal lending', color: '#8b5cf6' }];
+  const pDs = [], pLs = new Set();
+  policyDefs.forEach(def => { const s = getSeries('FM', def.code, 'U2'); if (!s) return; const { labels, data } = obsToChart(s.observations, 'PCT'); labels.forEach(l => pLs.add(l)); pDs.push({ label: def.label, data, borderColor: def.color, borderWidth: 1.5, pointRadius: 0, tension: 0.2 }); });
+  if (pDs.length) { destroyChart('Policy'); charts['Policy'] = new Chart(document.getElementById('chartPolicy'), { type: 'line', data: { labels: [...pLs].sort(), datasets: pDs }, options: LINE_OPTIONS('%') }); }
+
+  if (hicpObs) { destroyChart('HICP'); const { labels, data } = obsToChart(hicpObs, 'PCT'); charts['HICP'] = new Chart(document.getElementById('chartHICP'), { type: 'line', data: { labels, datasets: [{ label: 'HICP %', data, borderColor: '#ef4444', backgroundColor: 'rgba(239,68,68,0.07)', borderWidth: 1.5, pointRadius: 0, tension: 0.3, fill: true }] }, options: LINE_OPTIONS('%') }); }
+}
+
+const SECTORS = [
+  { code: 'A', label: 'Agriculture' }, { code: 'BC', label: 'Industry' }, { code: 'F', label: 'Construction' },
+  { code: 'G', label: 'Wholesale & retail' }, { code: 'H', label: 'Transport' }, { code: 'I', label: 'Accommodation' },
+  { code: 'JA', label: 'Broadcasting' }, { code: 'JB', label: 'IT & info' }, { code: 'K', label: 'Finance' },
+  { code: 'L', label: 'Real estate' }, { code: 'MN', label: 'Professional svcs' }, { code: 'OPQRSTU', label: 'Other services' },
+];
+
+function renderLending() {
+  if (!state.loaded) return;
+  const lbsiSeries = SECTORS.map(s => ({ ...s, series: getSeries('LBSI', s.code) })).filter(s => s.series);
+  if (!lbsiSeries.length) { document.getElementById('lendingContent').innerHTML = '<div class="error-box">No LBSI data loaded. Ensure the scraper has run for the selected country.</div>'; return; }
+  const allLabels = new Set();
+  const datasets = lbsiSeries.map((s, i) => { const obs = filterByStart(s.series.observations); obs.forEach(o => allLabels.add(o.period)); return { label: s.label, data: obs.map(o => Math.round(o.value / 1e9 * 10) / 10), borderColor: COLORS[i], borderWidth: 1.5, pointRadius: 0, tension: 0.3 }; });
+  destroyChart('Lending');
+  charts['Lending'] = new Chart(document.getElementById('chartLending'), { type: 'line', data: { labels: [...allLabels].sort(), datasets }, options: LINE_OPTIONS() });
+  document.getElementById('lendingLegend').innerHTML = lbsiSeries.map((s, i) => `<span class="legend-item"><span class="legend-dot" style="background:${COLORS[i]}"></span>${s.label}</span>`).join('');
+  const latestVals = lbsiSeries.map(s => { const obs = s.series.observations; return obs?.length ? obs[obs.length - 1].value / 1e9 : 0; });
+  destroyChart('LendingPie');
+  charts['LendingPie'] = new Chart(document.getElementById('chartLendingPie'), { type: 'doughnut', data: { labels: lbsiSeries.map(s => s.label), datasets: [{ data: latestVals.map(v => Math.round(v * 10) / 10), backgroundColor: COLORS.slice(0, lbsiSeries.length), borderWidth: 1, borderColor: '#0a0d12' }] }, options: { responsive: true, maintainAspectRatio: false, cutout: '55%', animation: false, plugins: { legend: { display: false }, tooltip: { backgroundColor: '#10151e', borderColor: 'rgba(255,255,255,0.1)', borderWidth: 1, titleColor: '#6b7590', bodyColor: '#e8eaf0', titleFont: { family: 'IBM Plex Mono', size: 10 }, bodyFont: { family: 'IBM Plex Mono', size: 11 }, callbacks: { label: ctx => `${ctx.label}: €${ctx.parsed.toFixed(1)}bn` } } } } });
+  const growthVals = lbsiSeries.map(s => { const obs = s.series.observations; if (!obs || obs.length < 5) return 0; const latest = obs[obs.length - 1].value; const yearAgo = obs[obs.length - 5]?.value; if (!yearAgo) return 0; return Math.round((latest - yearAgo) / Math.abs(yearAgo) * 1000) / 10; });
+  destroyChart('LendingBar');
+  charts['LendingBar'] = new Chart(document.getElementById('chartLendingBar'), { type: 'bar', data: { labels: lbsiSeries.map(s => s.label), datasets: [{ label: 'YoY growth %', data: growthVals, backgroundColor: growthVals.map(v => v >= 0 ? 'rgba(16,185,129,0.7)' : 'rgba(239,68,68,0.7)'), borderRadius: 3 }] }, options: { responsive: true, maintainAspectRatio: false, indexAxis: 'y', animation: false, plugins: { legend: { display: false }, tooltip: { backgroundColor: '#10151e', borderColor: 'rgba(255,255,255,0.1)', borderWidth: 1, titleColor: '#6b7590', bodyColor: '#e8eaf0', titleFont: { family: 'IBM Plex Mono', size: 10 }, bodyFont: { family: 'IBM Plex Mono', size: 11 } } }, scales: { x: { ticks: { color: '#6b7590', font: { family: 'IBM Plex Mono', size: 9 }, callback: v => v + '%' }, grid: { color: 'rgba(255,255,255,0.04)' } }, y: { ticks: { color: '#6b7590', font: { family: 'IBM Plex Mono', size: 9 } }, grid: { display: false } } } } });
+}
+
+function renderRates() {
+  if (!state.loaded) return;
+  const euriborDefs = [{ code: 'EURIBOR1M', label: '1 month', color: '#3b82f6' }, { code: 'EURIBOR3M', label: '3 months', color: '#10b981' }, { code: 'EURIBOR6M', label: '6 months', color: '#f59e0b' }, { code: 'EURIBOR12M', label: '12 months', color: '#ef4444' }];
+  const eDs = [], eLs = new Set();
+  euriborDefs.forEach(def => { const s = getSeries('FM', def.code, 'U2'); if (!s) return; const { labels, data } = obsToChart(s.observations, 'PCT'); labels.forEach(l => eLs.add(l)); eDs.push({ label: def.label, data, borderColor: def.color, borderWidth: 1.5, pointRadius: 0, tension: 0.3 }); });
+  if (eDs.length) { destroyChart('Euribor'); charts['Euribor'] = new Chart(document.getElementById('chartEuribor'), { type: 'line', data: { labels: [...eLs].sort(), datasets: eDs }, options: LINE_OPTIONS('%') }); }
+
+  const mirNFC = [{ code: 'NFC_rate_new', label: 'New business', color: '#3b82f6' }, { code: 'NFC_rate_out', label: 'Outstanding', color: '#10b981' }];
+  const mNDs = [], mNLs = new Set();
+  mirNFC.forEach(def => { const s = getSeries('MIR', def.code); if (!s) return; const { labels, data } = obsToChart(s.observations, 'PCT'); labels.forEach(l => mNLs.add(l)); mNDs.push({ label: def.label, data, borderColor: def.color, borderWidth: 1.5, pointRadius: 0, tension: 0.3 }); });
+  if (mNDs.length) { destroyChart('MIR_NFC'); charts['MIR_NFC'] = new Chart(document.getElementById('chartMIR_NFC'), { type: 'line', data: { labels: [...mNLs].sort(), datasets: mNDs }, options: LINE_OPTIONS('%') }); }
+
+  const mirHH = [{ code: 'HH_mortgage_new', label: 'Mortgage', color: '#8b5cf6' }, { code: 'HH_consumer_new', label: 'Consumer', color: '#f59e0b' }, { code: 'HH_deposit_ON', label: 'ON deposit', color: '#06b6d4' }];
+  const mHDs = [], mHLs = new Set();
+  mirHH.forEach(def => { const s = getSeries('MIR', def.code); if (!s) return; const { labels, data } = obsToChart(s.observations, 'PCT'); labels.forEach(l => mHLs.add(l)); mHDs.push({ label: def.label, data, borderColor: def.color, borderWidth: 1.5, pointRadius: 0, tension: 0.3 }); });
+  if (mHDs.length) { destroyChart('MIR_HH'); charts['MIR_HH'] = new Chart(document.getElementById('chartMIR_HH'), { type: 'line', data: { labels: [...mHLs].sort(), datasets: mHDs }, options: LINE_OPTIONS('%') }); }
+}
+
+function renderMoney() {
+  if (!state.loaded) return;
+  const m1Obs = getSeries('BSI', 'M1', 'U2')?.observations;
+  const m3Obs = getSeries('BSI', 'M3', 'U2')?.observations;
+  const m3GrObs = getSeries('BSI', 'M3_growth', 'U2')?.observations;
+  const mDs = [], mLs = new Set();
+  [[m1Obs,'M1','#3b82f6'],[m3Obs,'M3','#8b5cf6']].forEach(([obs,label,color]) => { if (!obs) return; const { labels, data } = obsToChart(obs, 'EUR'); labels.forEach(l => mLs.add(l)); mDs.push({ label, data, borderColor: color, borderWidth: 1.5, pointRadius: 0, tension: 0.3 }); });
+  if (mDs.length) { destroyChart('Money'); charts['Money'] = new Chart(document.getElementById('chartMoney'), { type: 'line', data: { labels: [...mLs].sort(), datasets: mDs }, options: LINE_OPTIONS() }); }
+  if (m3GrObs) { destroyChart('M3Growth'); const { labels, data } = obsToChart(m3GrObs, 'PCT'); charts['M3Growth'] = new Chart(document.getElementById('chartM3Growth'), { type: 'line', data: { labels, datasets: [{ label: 'M3 growth %', data, borderColor: '#8b5cf6', backgroundColor: 'rgba(139,92,246,0.08)', borderWidth: 1.5, pointRadius: 0, tension: 0.3, fill: true }] }, options: LINE_OPTIONS('%') }); }
+}
+
+function renderInflation() {
+  if (!state.loaded) return;
+  const defs = [{ code: 'HICP_all', label: 'All items', color: '#ef4444' }, { code: 'HICP_food', label: 'Food', color: '#f59e0b' }, { code: 'HICP_energy', label: 'Energy', color: '#10b981' }, { code: 'HICP_services', label: 'Services', color: '#3b82f6' }, { code: 'HICP_goods', label: 'Goods', color: '#8b5cf6' }];
+  const iDs = [], iLs = new Set();
+  defs.forEach(def => { const s = getSeries('ICP', def.code); if (!s) return; const { labels, data } = obsToChart(s.observations, 'PCT'); labels.forEach(l => iLs.add(l)); iDs.push({ label: def.label, data, borderColor: def.color, borderWidth: 1.5, pointRadius: 0, tension: 0.3 }); });
+  if (iDs.length) { destroyChart('Inflation'); charts['Inflation'] = new Chart(document.getElementById('chartInflation'), { type: 'line', data: { labels: [...iLs].sort(), datasets: iDs }, options: LINE_OPTIONS('%') }); }
+}
+
+let allSeriesList = [];
+function buildSeriesList() {
+  allSeriesList = [];
+  Object.entries(state.data).forEach(([ds, series]) => {
+    series.forEach(s => { const obs = s.observations || []; const latest = obs[obs.length - 1]; allSeriesList.push({ dataset: ds, country: s.country, country_code: s.country_code, series: s.series, sector_code: s.sector_code, unit: s.unit, theme: s.theme, latest_period: latest?.period ?? '—', latest_value: latest?.value ?? null, observations: obs }); });
+  });
+}
+
+function renderExplorer() { if (!state.loaded) return; if (!allSeriesList.length) buildSeriesList(); filterExplorer(); }
+
+function filterExplorer() {
+  const ds = document.getElementById('expDataset')?.value ?? '';
+  const th = document.getElementById('expTheme')?.value ?? '';
+  const q  = (document.getElementById('expSearch')?.value ?? '').toLowerCase();
+  const filtered = allSeriesList.filter(s => (!ds || s.dataset === ds) && (!th || s.theme === th) && (!q || s.series.toLowerCase().includes(q) || s.country.toLowerCase().includes(q)));
+  document.getElementById('explorerBody').innerHTML = filtered.slice(0, 200).map(s => `<tr><td><span class="tag ${DATASET_TAGS[s.dataset] ?? 'tag-blue'}">${s.dataset}</span></td><td>${s.country}</td><td>${s.series}</td><td style="color:var(--muted)">${s.sector_code}</td><td style="color:var(--muted)">${s.unit}</td><td style="color:var(--muted)">${s.latest_period}</td><td style="text-align:right">${fmtShort(s.latest_value, s.unit)}</td><td style="color:var(--muted);font-size:10px">${s.theme}</td></tr>`).join('');
+  document.getElementById('explorerCount').textContent = `Showing ${Math.min(filtered.length, 200)} of ${filtered.length} series`;
+}
+
+function downloadAllCSV() { if (!allSeriesList.length) buildSeriesList(); downloadCSV(allSeriesList, 'ecb_all_data.csv'); }
+function downloadFilteredCSV() {
+  const ds = document.getElementById('expDataset')?.value ?? '';
+  const th = document.getElementById('expTheme')?.value ?? '';
+  const q  = (document.getElementById('expSearch')?.value ?? '').toLowerCase();
+  downloadCSV(allSeriesList.filter(s => (!ds || s.dataset === ds) && (!th || s.theme === th) && (!q || s.series.toLowerCase().includes(q) || s.country.toLowerCase().includes(q))), 'ecb_filtered.csv');
+}
+
+function downloadCSV(seriesList, filename) {
+  const cols = ['dataset','country_code','country','series','sector_code','unit','theme','period','value'];
+  const rows = [cols.join(',')];
+  seriesList.forEach(s => { (s.observations || []).forEach(obs => { rows.push([s.dataset, s.country_code, `"${s.country}"`, `"${s.series}"`, s.sector_code, s.unit, `"${s.theme}"`, obs.period, obs.value].join(',')); }); });
+  const blob = new Blob([rows.join('\n')], { type: 'text/csv' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = filename; a.click(); URL.revokeObjectURL(a.href);
+}
+
+const SECTION_META = {
+  overview:  { title: 'Dashboard',      desc: 'Euro area macroeconomic and financial overview' },
+  explorer:  { title: 'Data Explorer',  desc: 'Browse, search and export all ECB series' },
+  lending:   { title: 'Bank Lending',   desc: 'MFI loans to non-financial corporations by NACE sector' },
+  rates:     { title: 'Interest Rates', desc: 'Euribor, ECB policy rates and MFI lending rates' },
+  money:     { title: 'Money Supply',   desc: 'M1, M3 and monetary aggregate dynamics' },
+  inflation: { title: 'Inflation',      desc: 'HICP by component — euro area and country level' },
+};
+
+function showSection(id, btn) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(b => b.classList.remove('active'));
+  document.getElementById('sec-' + id).classList.add('active');
+  btn.classList.add('active');
+  const m = SECTION_META[id] || {};
+  document.getElementById('pageTitle').textContent = m.title ?? id;
+  document.getElementById('pageDesc').textContent  = m.desc ?? '';
+}
+
+loadData();
+</script>
+</body>
+</html>
