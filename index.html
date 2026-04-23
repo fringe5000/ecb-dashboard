@@ -476,7 +476,7 @@ const SECTORS = [
 
 function renderLending() {
   if (!state.loaded) return;
-  const lbsiSeries = SECTORS.map(s => ({ ...s, series: getSeries('LBSI', s.code) })).filter(s => s.series);
+  const lbsiSeries = SECTORS.map(s => ({ ...s, series: getSeries('BSI', s.code) })).filter(s => s.series);
   if (!lbsiSeries.length) { document.getElementById('lendingContent').innerHTML = '<div class="error-box">No LBSI data loaded. Ensure the scraper has run for the selected country.</div>'; return; }
   const allLabels = new Set();
   const datasets = lbsiSeries.map((s, i) => { const obs = filterByStart(s.series.observations); obs.forEach(o => allLabels.add(o.period)); return { label: s.label, data: obs.map(o => Math.round(o.value / 1e9 * 10) / 10), borderColor: COLORS[i], borderWidth: 1.5, pointRadius: 0, tension: 0.3 }; });
