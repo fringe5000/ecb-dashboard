@@ -230,53 +230,42 @@ def fetch_bsi_nace() -> list[dict]:
     """
     Fetch quarterly BSI loans to NFCs by NACE sector.
     Uses a wildcard key to get all NACE sector series at once.
-    Pattern: Q.U2.N.A.A20.A.1.U2.*.Z01.E  (wildcard on counterpart sector)
+    Pattern: Q.U2.N.A.A20.A.1.U2..Z01.E  (double dot = wildcard)
     """
     log.info("Fetching BSI NACE sector loans (bulk wildcard query)...")
-
-    # Wildcard fetch — omit the counterpart sector dimension to get all sectors
     url = f"{BASE_URL}/BSI/Q.U2.N.A.A20.A.1.U2..Z01.E?startPeriod={START_YEAR}&detail=dataonly&format=csvdata"
     text = fetch_url(url)
 
     if not text:
-        # Fallback: try each sector individually
         log.warning("Bulk wildcard failed, trying sectors individually...")
         return fetch_bsi_nace_individual()
 
-    # Parse and filter to our NACE codes
-    series = []
     bulk = parse_bulk_csv(text)
 
     if not bulk:
-        # The bulk parse may fail if format differs — try line-by-line
         log.warning("Bulk parse returned empty, trying individual series...")
         return fetch_bsi_nace_individual()
 
+    series = []
     for full_key, obs in bulk.items():
-        # Extract counterpart sector from key position 9 (0-indexed)
-        # Full key format: BSI.Q.U2.N.A.A20.A.1.U2.{sector}.Z01.E
-# Strip dataset prefix and split
-clean_key = full_key
-if clean_key.startswith("BSI."):
-    clean_key = clean_key[4:]
-parts = clean_key.split(".")
-# Sector code is at position 8 (0-indexed): Q U2 N A A20 A 1 U2 {SECTOR}
-if len(parts) < 9:
-    log.warning(f"  Key too short to parse sector: {full_key}")
-    continue
-sector_code = parts[8]
-log.info(f"  Parsed sector code: {sector_code} from {full_key}")
-if sector_code not in NACE_SECTOR_LABELS:
-    log.info(f"  Skipping unmapped sector: {sector_code}")
-    continue
-        if sector_code not in BSI_NACE_SECTORS:
+        clean_key = full_key
+        if clean_key.startswith("BSI."):
+            clean_key = clean_key[4:]
+        parts = clean_key.split(".")
+        if len(parts) < 9:
+            log.warning(f"  Key too short to parse sector: {full_key}")
+            continue
+        sector_code = parts[8]
+        log.info(f"  Parsed sector code: {sector_code} from {full_key}")
+        if sector_code not in NACE_SECTOR_LABELS:
+            log.info(f"  Skipping unmapped sector: {sector_code}")
             continue
         series.append({
             "dataset":      "BSI",
             "key":          full_key,
             "country_code": "U2",
             "country":      "Euro area",
-            "series":       BSI_NACE_SECTORS[sector_code],
+            "series":       NACE_SECTOR_LABELS[sector_code],
             "sector_code":  sector_code,
             "unit":         "EUR",
             "unit_label":   "Outstanding amounts (€ millions)",
@@ -284,12 +273,11 @@ if sector_code not in NACE_SECTOR_LABELS:
             "theme":        "Bank lending by sector",
             "observations": sorted(obs, key=lambda x: x["period"]),
         })
-        log.info(f"  ✓ {BSI_NACE_SECTORS[sector_code]} ({sector_code}): {len(obs)} obs")
+        log.info(f"  ✓ {NACE_SECTOR_LABELS[sector_code]} ({sector_code}): {len(obs)} obs")
 
     log.info(f"BSI NACE: {len(series)} sectors retrieved")
     return series
-
-
+    
 def fetch_bsi_nace_individual() -> list[dict]:
     """Fallback: fetch each NACE sector series individually."""
     series = []
