@@ -130,25 +130,81 @@ def parse_csv_text(text: str) -> list[dict]:
 
 def parse_bulk_csv(text: str) -> dict[str, list[dict]]:
     """
-    Parse a bulk ECB CSV download into a dict of {series_key: [{period, value}]}.
-    ECB bulk CSV has a KEY_DIM_N column for the series key and TIME_PERIOD / OBS_VALUE.
+    Parse ECB bulk CSV into {series_key: [{period, value}]}.
+    ECB CSV format: first column is the full series key (e.g. BSI.Q.U2.N.A...)
+    followed by time period columns across the top.
     """
+    result: dict[str, list] = {}
+    lines = text.strip().split("\n")
+    if len(lines) < 2:
+        return result
+
+    reader = csv.reader(lines)
+    headers = next(reader)
+
+    # ECB wide-format CSV: rows = series, columns = time periods
+    # First few columns are metadata, then period columns like 2003-Q1, 2003-Q2...
+    # Detect period columns by pattern
+    import re
+    period_pattern = re.compile(r'^\d{4}[-Q\-]\d')
+    
+    # Find which column index the series key lives in
+    # and which columns are time periods
+    key_col = None
+    period_cols = []
+    
+    for i, h in enumerate(headers):
+        h = h.strip().strip('"')
+        if h in ('KEY', 'SERIES_KEY', 'key', 'series_key'):
+            key_col = i
+        elif period_pattern.match(h):
+            period_cols.append((i, h))
+
+    # If no explicit key column, assume column 0 is the key
+    if key_col is None:
+        key_col = 0
+
+    if not period_cols:
+        # Try long format instead: KEY, TIME_PERIOD, OBS_VALUE columns
+        return parse_bulk_csv_long(text)
+
+    for row in reader:
+        if len(row) <= key_col:
+            continue
+        full_key = row[key_col].strip().strip('"')
+        if not full_key:
+            continue
+        obs = []
+        for col_i, period in period_cols:
+            if col_i >= len(row):
+                continue
+            val = row[col_i].strip()
+            if not val or val in ('NaN', 'NA', ''):
+                continue
+            try:
+                obs.append({"period": period, "value": float(val)})
+            except ValueError:
+                continue
+        if obs:
+            result[full_key] = obs
+
+    return result
+
+
+def parse_bulk_csv_long(text: str) -> dict[str, list[dict]]:
+    """Fallback: parse ECB long-format CSV."""
     result: dict[str, list] = {}
     reader = csv.DictReader(io.StringIO(text))
     for row in reader:
-        # Find the series key column — ECB uses different names
-        key = row.get("KEY") or row.get("SERIES_KEY") or row.get("key") or ""
-        period = row.get("TIME_PERIOD") or row.get("time_period") or ""
-        value  = row.get("OBS_VALUE")  or row.get("obs_value")  or ""
+        key    = (row.get("KEY") or row.get("SERIES_KEY") or row.get("key") or "").strip()
+        period = (row.get("TIME_PERIOD") or row.get("time_period") or "").strip()
+        value  = (row.get("OBS_VALUE") or row.get("obs_value") or "").strip()
         if not key or not period or not value:
             continue
-        if period < START_YEAR:
-            continue
         try:
-            v = float(value)
+            result.setdefault(key, []).append({"period": period, "value": float(value)})
         except ValueError:
             continue
-        result.setdefault(key, []).append({"period": period, "value": v})
     return result
 
 
@@ -198,10 +254,21 @@ def fetch_bsi_nace() -> list[dict]:
 
     for full_key, obs in bulk.items():
         # Extract counterpart sector from key position 9 (0-indexed)
-        parts = full_key.replace("BSI.", "").split(".")
-        if len(parts) < 9:
-            continue
-        sector_code = parts[8]
+        # Full key format: BSI.Q.U2.N.A.A20.A.1.U2.{sector}.Z01.E
+# Strip dataset prefix and split
+clean_key = full_key
+if clean_key.startswith("BSI."):
+    clean_key = clean_key[4:]
+parts = clean_key.split(".")
+# Sector code is at position 8 (0-indexed): Q U2 N A A20 A 1 U2 {SECTOR}
+if len(parts) < 9:
+    log.warning(f"  Key too short to parse sector: {full_key}")
+    continue
+sector_code = parts[8]
+log.info(f"  Parsed sector code: {sector_code} from {full_key}")
+if sector_code not in NACE_SECTOR_LABELS:
+    log.info(f"  Skipping unmapped sector: {sector_code}")
+    continue
         if sector_code not in BSI_NACE_SECTORS:
             continue
         series.append({
