@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """
 ECB Data Portal Scraper
-Downloads bulk CSV files from the ECB SDMX API and filters to the
-series we want. This is more reliable than querying individual series keys.
+Fetches all configured series from the ECB SDMX API.
+NACE sector lending uses a targeted OR-operator query.
+All other series are fetched individually.
 """
 
 import csv
 import io
 import json
 import logging
-import os
+import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -17,6 +18,10 @@ from pathlib import Path
 from typing import Optional
 
 import requests
+from datasets import (
+    ALL_SERIES, THEMES, DATASETS, COUNTRIES,
+    NACE_SECTOR_LABELS, START_PERIOD, BASE_URL,
+)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -25,90 +30,40 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-BASE_URL = "https://data-api.ecb.europa.eu/service/data"
-DATA_DIR = Path(__file__).parent.parent / "data"
-TIMEOUT  = 120
-START_YEAR = "2000"
+DATA_DIR    = Path(__file__).parent.parent / "data"
+TIMEOUT     = 120
+RETRY_LIMIT = 3
+RETRY_DELAY = 5
 
 # ---------------------------------------------------------------------------
-# What we want to extract from each dataset bulk download
-# ---------------------------------------------------------------------------
-
-# BSI — we pull the full quarterly NFC NACE breakdown
-# Series key pattern: BSI.Q.U2.N.A.A20.A.1.U2.{sector}.Z01.E
-# The sector dimension (position 9) contains the NACE codes
-BSI_NACE_SECTORS = {
-    "2240A":   "Agriculture, forestry & fishing",
-    "2240B":   "Mining & quarrying",
-    "2240C":   "Manufacturing",
-    "2240DE":  "Electricity, gas, water & waste",
-    "2240F":   "Construction",
-    "2240G":   "Wholesale & retail trade",
-    "2240HJ":  "Transport, storage & communication",
-    "2240LMN": "Real estate & professional services",
-    "2240Z":   "Other services",
-    "2240":    "Total NFC loans",
-}
-
-# Monthly aggregate BSI series keys to pull individually
-BSI_INDIVIDUAL = [
-    ("M.U2.N.A.A20.A.1.U2.2240.Z01.E",  "NFC loans — outstanding",        "NFC_total",  "EUR", "Money, credit & banking"),
-    ("M.U2.N.A.A20.A.I.U2.2240.Z01.A",  "NFC loans — annual growth rate",  "NFC_growth", "PCT", "Money, credit & banking"),
-    ("M.U2.N.A.A20.A.1.U2.2250.Z01.E",  "Household loans — outstanding",   "HH_total",   "EUR", "Money, credit & banking"),
-    ("M.U2.N.A.A20.A.I.U2.2250.Z01.A",  "Household loans — growth rate",   "HH_growth",  "PCT", "Money, credit & banking"),
-    ("M.U2.Y.V.M10.X.1.U2.2300.Z0Z.E",  "M1 — outstanding",                "M1",         "EUR", "Money, credit & banking"),
-    ("M.U2.Y.V.M30.X.1.U2.2300.Z0Z.E",  "M3 — outstanding",                "M3",         "EUR", "Money, credit & banking"),
-    ("M.U2.Y.V.M30.X.1.U2.2300.Z0Z.I",  "M3 — annual growth rate",         "M3_growth",  "PCT", "Money, credit & banking"),
-]
-
-MIR_INDIVIDUAL = [
-    ("M.U2.B.A2I.AM.R.A.2240.EUR.N", "NFC lending rate — new business",         "NFC_rate_new",   "PCT", "Interest rates"),
-    ("M.U2.B.A2O.AM.R.A.2240.EUR.N", "NFC lending rate — outstanding",          "NFC_rate_out",   "PCT", "Interest rates"),
-    ("M.U2.B.A2C.AM.R.A.2250.EUR.N", "Household mortgage rate — new business",  "HH_mortgage_new","PCT", "Interest rates"),
-    ("M.U2.B.A2D.AM.R.A.2250.EUR.N", "Household consumer rate — new business",  "HH_consumer_new","PCT", "Interest rates"),
-    ("M.U2.B.L21.A.R.A.2250.EUR.N",  "Overnight deposit rate — households",     "HH_deposit_ON",  "PCT", "Interest rates"),
-]
-
-FM_INDIVIDUAL = [
-    ("M.U2.EUR.RT.MM.EURIBOR1MD_.HSTA", "Euribor 1-month",           "EURIBOR1M",  "PCT", "Interest rates"),
-    ("M.U2.EUR.RT.MM.EURIBOR3MD_.HSTA", "Euribor 3-month",           "EURIBOR3M",  "PCT", "Interest rates"),
-    ("M.U2.EUR.RT.MM.EURIBOR6MD_.HSTA", "Euribor 6-month",           "EURIBOR6M",  "PCT", "Interest rates"),
-    ("M.U2.EUR.RT.MM.EURIBOR1YD_.HSTA", "Euribor 12-month",          "EURIBOR12M", "PCT", "Interest rates"),
-    ("M.U2.EUR.4F.KR.MRR_FR.LEV",       "ECB main refinancing rate", "ECB_MRR",    "PCT", "ECB policy rates"),
-    ("M.U2.EUR.4F.KR.DFR.LEV",          "ECB deposit facility rate", "ECB_DFR",    "PCT", "ECB policy rates"),
-    ("M.U2.EUR.4F.KR.MLFR.LEV",         "ECB marginal lending rate", "ECB_MLF",    "PCT", "ECB policy rates"),
-]
-
-ICP_INDIVIDUAL = [
-    ("M.U2.N.000000.4.ANR", "HICP — all items", "HICP_all",      "PCT", "Inflation"),
-    ("M.U2.N.01.4.ANR",     "HICP — food",      "HICP_food",     "PCT", "Inflation"),
-    ("M.U2.N.045.4.ANR",    "HICP — energy",    "HICP_energy",   "PCT", "Inflation"),
-    ("M.U2.N.S.4.ANR",      "HICP — services",  "HICP_services", "PCT", "Inflation"),
-    ("M.U2.N.G.4.ANR",      "HICP — goods",     "HICP_goods",    "PCT", "Inflation"),
-]
-
-# ---------------------------------------------------------------------------
-# HTTP helpers
+# HTTP
 # ---------------------------------------------------------------------------
 
 def fetch_url(url: str) -> Optional[str]:
-    """Fetch a URL and return text content, or None on failure."""
     log.info(f"  GET {url}")
-    try:
-        r = requests.get(url, timeout=TIMEOUT, headers={"Accept": "text/csv"})
-        if r.status_code in (400, 404):
-            log.warning(f"  HTTP {r.status_code} — not found")
-            return None
-        r.raise_for_status()
-        log.info(f"  → {len(r.content):,} bytes")
-        return r.text
-    except requests.RequestException as e:
-        log.error(f"  Request failed: {e}")
-        return None
+    for attempt in range(1, RETRY_LIMIT + 1):
+        try:
+            r = requests.get(url, timeout=TIMEOUT, headers={"Accept": "text/csv"})
+            if r.status_code in (400, 404):
+                log.warning(f"  HTTP {r.status_code} — not found")
+                return None
+            r.raise_for_status()
+            log.info(f"  → {len(r.content):,} bytes")
+            return r.text
+        except requests.RequestException as e:
+            if attempt < RETRY_LIMIT:
+                log.warning(f"  Attempt {attempt} failed: {e} — retrying in {RETRY_DELAY}s")
+                time.sleep(RETRY_DELAY)
+            else:
+                log.error(f"  All retries failed: {e}")
+                return None
 
+# ---------------------------------------------------------------------------
+# CSV parsers
+# ---------------------------------------------------------------------------
 
-def parse_csv_text(text: str) -> list[dict]:
-    """Parse ECB CSV into list of {period, value}."""
+def parse_csv_individual(text: str) -> list[dict]:
+    """Parse a single-series ECB CSV response into [{period, value}]."""
     rows = []
     lines = text.strip().split("\n")
     if len(lines) < 2:
@@ -117,22 +72,22 @@ def parse_csv_text(text: str) -> list[dict]:
         cols = line.split(",")
         if len(cols) < 2:
             continue
-        period = cols[-2].strip()
-        raw    = cols[-1].strip()
-        if not raw or raw in ("NaN", ""):
+        period = cols[-2].strip().strip('"')
+        raw    = cols[-1].strip().strip('"')
+        if not raw or raw in ("NaN", "NA", ""):
             continue
         try:
             rows.append({"period": period, "value": float(raw)})
         except ValueError:
             continue
-    return [r for r in rows if r["period"] >= START_YEAR]
+    return [r for r in rows if r["period"] >= START_PERIOD]
 
 
-def parse_bulk_csv(text: str) -> dict[str, list[dict]]:
+def parse_csv_bulk(text: str) -> dict[str, list[dict]]:
     """
-    Parse ECB bulk CSV into {series_key: [{period, value}]}.
-    ECB CSV format: first column is the full series key (e.g. BSI.Q.U2.N.A...)
-    followed by time period columns across the top.
+    Parse an ECB bulk/multi-series CSV into {full_series_key: [{period, value}]}.
+    ECB returns wide format: rows = series, columns = time periods.
+    First column is the full series key (e.g. BSI.Q.U2.N.A.A20.A.1.U2.2240A.Z01.E).
     """
     result: dict[str, list] = {}
     lines = text.strip().split("\n")
@@ -142,47 +97,35 @@ def parse_bulk_csv(text: str) -> dict[str, list[dict]]:
     reader = csv.reader(lines)
     headers = next(reader)
 
-    # ECB wide-format CSV: rows = series, columns = time periods
-    # First few columns are metadata, then period columns like 2003-Q1, 2003-Q2...
-    # Detect period columns by pattern
-    import re
-    period_pattern = re.compile(r'^\d{4}[-Q\-]\d')
-    
-    # Find which column index the series key lives in
-    # and which columns are time periods
-    key_col = None
+    # Identify period columns by pattern YYYY-Qn or YYYY-MM
+    period_pattern = re.compile(r'^\d{4}[-Q]\d')
     period_cols = []
-    
     for i, h in enumerate(headers):
-        h = h.strip().strip('"')
-        if h in ('KEY', 'SERIES_KEY', 'key', 'series_key'):
-            key_col = i
-        elif period_pattern.match(h):
-            period_cols.append((i, h))
-
-    # If no explicit key column, assume column 0 is the key
-    if key_col is None:
-        key_col = 0
+        h_clean = h.strip().strip('"')
+        if period_pattern.match(h_clean):
+            period_cols.append((i, h_clean))
 
     if not period_cols:
-        # Try long format instead: KEY, TIME_PERIOD, OBS_VALUE columns
-        return parse_bulk_csv_long(text)
+        log.warning("  No period columns found in bulk CSV — falling back to long format")
+        return parse_csv_bulk_long(text)
 
+    # Column 0 is the series key in ECB wide-format CSV
     for row in reader:
-        if len(row) <= key_col:
+        if not row:
             continue
-        full_key = row[key_col].strip().strip('"')
+        full_key = row[0].strip().strip('"')
         if not full_key:
             continue
         obs = []
         for col_i, period in period_cols:
             if col_i >= len(row):
                 continue
-            val = row[col_i].strip()
-            if not val or val in ('NaN', 'NA', ''):
+            val = row[col_i].strip().strip('"')
+            if not val or val in ("NaN", "NA", ""):
                 continue
             try:
-                obs.append({"period": period, "value": float(val)})
+                if period >= START_PERIOD:
+                    obs.append({"period": period, "value": float(val)})
             except ValueError:
                 continue
         if obs:
@@ -191,72 +134,61 @@ def parse_bulk_csv(text: str) -> dict[str, list[dict]]:
     return result
 
 
-def parse_bulk_csv_long(text: str) -> dict[str, list[dict]]:
-    """Fallback: parse ECB long-format CSV."""
+def parse_csv_bulk_long(text: str) -> dict[str, list[dict]]:
+    """Fallback for ECB long-format CSV."""
     result: dict[str, list] = {}
-    reader = csv.DictReader(io.StringIO(text))
-    for row in reader:
-        key    = (row.get("KEY") or row.get("SERIES_KEY") or row.get("key") or "").strip()
-        period = (row.get("TIME_PERIOD") or row.get("time_period") or "").strip()
-        value  = (row.get("OBS_VALUE") or row.get("obs_value") or "").strip()
-        if not key or not period or not value:
-            continue
-        try:
-            result.setdefault(key, []).append({"period": period, "value": float(value)})
-        except ValueError:
-            continue
+    try:
+        reader = csv.DictReader(io.StringIO(text))
+        for row in reader:
+            key    = (row.get("KEY") or row.get("SERIES_KEY") or "").strip()
+            period = (row.get("TIME_PERIOD") or "").strip()
+            value  = (row.get("OBS_VALUE") or "").strip()
+            if not key or not period or not value or period < START_PERIOD:
+                continue
+            try:
+                result.setdefault(key, []).append({"period": period, "value": float(value)})
+            except ValueError:
+                continue
+    except Exception as e:
+        log.error(f"  Long-format parse failed: {e}")
     return result
 
-
 # ---------------------------------------------------------------------------
-# Fetch individual series
-# ---------------------------------------------------------------------------
-
-def fetch_individual(dataset: str, key: str) -> list[dict]:
-    url = f"{BASE_URL}/{dataset}/{key}?startPeriod={START_YEAR}&detail=dataonly&format=csvdata"
-    text = fetch_url(url)
-    if not text:
-        return []
-    rows = parse_csv_text(text)
-    log.info(f"  → {len(rows)} observations")
-    return rows
-
-
-# ---------------------------------------------------------------------------
-# Fetch BSI NACE sector data via bulk download with key filter
+# NACE sector loans — bulk fetch using OR operator
 # ---------------------------------------------------------------------------
 
 def fetch_bsi_nace() -> list[dict]:
     """
     Fetch quarterly BSI loans to NFCs by NACE sector.
-    Uses a wildcard key to get all NACE sector series at once.
-    Pattern: Q.U2.N.A.A20.A.1.U2..Z01.E  (double dot = wildcard)
+    Uses the SDMX OR operator (+) to request all NACE codes in one call.
     """
-    log.info("Fetching BSI NACE sector loans (bulk wildcard query)...")
-    url = f"{BASE_URL}/BSI/Q.U2.N.A.A20.A.1.U2..Z01.E?startPeriod={START_YEAR}&detail=dataonly&format=csvdata"
+    log.info("Fetching BSI NACE sector loans...")
+    nace_codes = "+".join(NACE_SECTOR_LABELS.keys())
+    url = (
+        f"{BASE_URL}/BSI/Q.U2.N.A.A20.A.1.U2.{nace_codes}.Z01.E"
+        f"?startPeriod={START_PERIOD}&detail=dataonly&format=csvdata"
+    )
     text = fetch_url(url)
 
     if not text:
-        log.warning("Bulk wildcard failed, trying sectors individually...")
+        log.warning("  OR-operator fetch failed, trying sectors individually...")
         return fetch_bsi_nace_individual()
 
-    bulk = parse_bulk_csv(text)
+    bulk = parse_csv_bulk(text)
 
     if not bulk:
-        log.warning("Bulk parse returned empty, trying individual series...")
+        log.warning("  Bulk parse returned empty, trying sectors individually...")
         return fetch_bsi_nace_individual()
 
     series = []
     for full_key, obs in bulk.items():
-        clean_key = full_key
-        if clean_key.startswith("BSI."):
-            clean_key = clean_key[4:]
-        parts = clean_key.split(".")
+        # Strip dataset prefix: BSI.Q.U2.N.A.A20.A.1.U2.{SECTOR}.Z01.E
+        clean = full_key[4:] if full_key.startswith("BSI.") else full_key
+        parts = clean.split(".")
         if len(parts) < 9:
-            log.warning(f"  Key too short to parse sector: {full_key}")
+            log.warning(f"  Key too short: {full_key}")
             continue
         sector_code = parts[8]
-        log.info(f"  Parsed sector code: {sector_code} from {full_key}")
         if sector_code not in NACE_SECTOR_LABELS:
             log.info(f"  Skipping unmapped sector: {sector_code}")
             continue
@@ -276,71 +208,72 @@ def fetch_bsi_nace() -> list[dict]:
         log.info(f"  ✓ {NACE_SECTOR_LABELS[sector_code]} ({sector_code}): {len(obs)} obs")
 
     log.info(f"BSI NACE: {len(series)} sectors retrieved")
+    if not series:
+        log.warning("  No sectors matched — trying individual fallback...")
+        return fetch_bsi_nace_individual()
     return series
-    
+
+
 def fetch_bsi_nace_individual() -> list[dict]:
     """Fallback: fetch each NACE sector series individually."""
     series = []
-    for sector_code, sector_name in BSI_NACE_SECTORS.items():
+    for sector_code, sector_name in NACE_SECTOR_LABELS.items():
         log.info(f"  Trying sector {sector_code} — {sector_name}")
-        # Try both with and without Z01 currency dimension
         for key_variant in [
             f"Q.U2.N.A.A20.A.1.U2.{sector_code}.Z01.E",
             f"Q.U2.N.A.A20.A.1.U2.{sector_code}.EUR.E",
-            f"Q.U2.N.A.A20.A.1.U2.{sector_code}.Z0Z.E",
         ]:
-            obs = fetch_individual("BSI", key_variant)
-            if obs:
-                series.append({
-                    "dataset":      "BSI",
-                    "key":          f"BSI.{key_variant}",
-                    "country_code": "U2",
-                    "country":      "Euro area",
-                    "series":       sector_name,
-                    "sector_code":  sector_code,
-                    "unit":         "EUR",
-                    "unit_label":   "Outstanding amounts (€ millions)",
-                    "frequency":    "Q",
-                    "theme":        "Bank lending by sector",
-                    "observations": obs,
-                })
-                log.info(f"  ✓ {sector_name}: {len(obs)} obs (key: {key_variant})")
-                break
+            text = fetch_url(f"{BASE_URL}/BSI/{key_variant}?startPeriod={START_PERIOD}&detail=dataonly&format=csvdata")
+            if text:
+                obs = parse_csv_individual(text)
+                if obs:
+                    series.append({
+                        "dataset":      "BSI",
+                        "key":          f"BSI.{key_variant}",
+                        "country_code": "U2",
+                        "country":      "Euro area",
+                        "series":       sector_name,
+                        "sector_code":  sector_code,
+                        "unit":         "EUR",
+                        "unit_label":   "Outstanding amounts (€ millions)",
+                        "frequency":    "Q",
+                        "theme":        "Bank lending by sector",
+                        "observations": obs,
+                    })
+                    log.info(f"  ✓ {sector_name}: {len(obs)} obs")
+                    break
         else:
             log.warning(f"  ✗ No data for {sector_name} ({sector_code})")
         time.sleep(0.3)
     return series
 
-
 # ---------------------------------------------------------------------------
-# Build all series records
+# Individual series fetch
 # ---------------------------------------------------------------------------
 
-def build_individual_series(dataset, definitions, country_code="U2", country="Euro area"):
+def fetch_individual(dataset: str, key: str) -> list[dict]:
+    url = f"{BASE_URL}/{dataset}/{key}?startPeriod={START_PERIOD}&detail=dataonly&format=csvdata"
+    text = fetch_url(url)
+    if not text:
+        return []
+    obs = parse_csv_individual(text)
+    log.info(f"  → {len(obs)} observations")
+    return obs
+
+
+def build_series_list(definitions: list[dict]) -> list[dict]:
+    """Fetch all individual series from a list of series definitions."""
     results = []
-    for key, label, sector_code, unit, theme in definitions:
-        log.info(f"[{dataset}] {label}")
-        obs = fetch_individual(dataset, key)
+    for meta in definitions:
+        log.info(f"[{meta['dataset']}] {meta['series']} | {meta['country']}")
+        obs = fetch_individual(meta["dataset"], meta["key"])
         if obs:
-            results.append({
-                "dataset":      dataset,
-                "key":          f"{dataset}.{key}",
-                "country_code": country_code,
-                "country":      country,
-                "series":       label,
-                "sector_code":  sector_code,
-                "unit":         unit,
-                "unit_label":   "Rate (%)" if unit == "PCT" else "Outstanding (€ millions)",
-                "frequency":    key[0],
-                "theme":        theme,
-                "observations": obs,
-            })
+            results.append({**meta, "observations": obs})
             log.info(f"  ✓ {len(obs)} obs")
         else:
             log.warning(f"  ✗ No data")
         time.sleep(0.2)
     return results
-
 
 # ---------------------------------------------------------------------------
 # Save outputs
@@ -356,10 +289,9 @@ def save_outputs(all_series: list[dict]) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     now_iso = datetime.now(timezone.utc).isoformat()
 
-    # Group by dataset
     by_dataset: dict[str, list] = {}
     by_theme:   dict[str, list] = {}
-    flat_rows = []
+    flat_rows:  list[dict]      = []
 
     for s in all_series:
         by_dataset.setdefault(s["dataset"], []).append(s)
@@ -380,8 +312,10 @@ def save_outputs(all_series: list[dict]) -> None:
     # Per-dataset JSON
     for ds, records in by_dataset.items():
         save_json(DATA_DIR / f"{ds}.json", {
-            "dataset": ds, "generated_at": now_iso,
-            "series_count": len(records), "series": records,
+            "dataset":      ds,
+            "generated_at": now_iso,
+            "series_count": len(records),
+            "series":       records,
         })
         log.info(f"Saved data/{ds}.json ({len(records)} series)")
 
@@ -390,31 +324,34 @@ def save_outputs(all_series: list[dict]) -> None:
     for theme, records in by_theme.items():
         slug = theme.lower().replace(" ", "_").replace(",", "").replace("&", "and")
         save_json(theme_dir / f"{slug}.json", {
-            "theme": theme, "generated_at": now_iso,
-            "series_count": len(records), "series": records,
+            "theme":        theme,
+            "generated_at": now_iso,
+            "series_count": len(records),
+            "series":       records,
         })
 
     # Master CSV
     if flat_rows:
-        import csv as csv_mod
         csv_path = DATA_DIR / "ecb_all_data.csv"
-        fieldnames = ["dataset","country_code","country","series","sector_code","unit","theme","period","value"]
+        fieldnames = [
+            "dataset", "country_code", "country", "series",
+            "sector_code", "unit", "theme", "period", "value",
+        ]
         with open(csv_path, "w", newline="") as f:
-            writer = csv_mod.DictWriter(f, fieldnames=fieldnames)
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(flat_rows)
         log.info(f"Saved data/ecb_all_data.csv ({len(flat_rows):,} rows)")
 
     # Manifest
     save_json(DATA_DIR / "manifest.json", {
-        "generated_at":  now_iso,
-        "total_series":  len(all_series),
-        "total_obs":     len(flat_rows),
-        "datasets":      list(by_dataset.keys()),
-        "themes":        list(by_theme.keys()),
+        "generated_at": now_iso,
+        "total_series": len(all_series),
+        "total_obs":    len(flat_rows),
+        "datasets":     list(by_dataset.keys()),
+        "themes":       list(by_theme.keys()),
     })
     log.info(f"Manifest: {len(all_series)} series, {len(flat_rows):,} observations")
-
 
 # ---------------------------------------------------------------------------
 # Main
@@ -423,23 +360,12 @@ def save_outputs(all_series: list[dict]) -> None:
 if __name__ == "__main__":
     all_series = []
 
-    # 1. BSI NACE sector loans (bulk wildcard, with individual fallback)
+    # 1. NACE sector loans (BSI bulk fetch)
+    log.info("=== BSI NACE sector loans ===")
     all_series += fetch_bsi_nace()
 
-    # 2. BSI aggregates
-    log.info("--- BSI individual series ---")
-    all_series += build_individual_series("BSI", BSI_INDIVIDUAL)
-
-    # 3. MIR interest rates
-    log.info("--- MIR series ---")
-    all_series += build_individual_series("MIR", MIR_INDIVIDUAL)
-
-    # 4. FM — Euribor + policy rates
-    log.info("--- FM series ---")
-    all_series += build_individual_series("FM", FM_INDIVIDUAL)
-
-    # 5. ICP — Inflation
-    log.info("--- ICP series ---")
-    all_series += build_individual_series("ICP", ICP_INDIVIDUAL)
+    # 2. All individually-defined series (BSI, FM, MIR, ICP, CBD2, GFS)
+    log.info("=== Individual series ===")
+    all_series += build_series_list(ALL_SERIES)
 
     save_outputs(all_series)
