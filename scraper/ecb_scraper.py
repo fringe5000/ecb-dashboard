@@ -46,21 +46,24 @@ RETRY_DELAY = 5  # seconds between retries
 def fetch_series(key: str, dataset: str, start: str = START_YEAR) -> Optional[list[dict]]:
     """Fetch one series from the ECB SDMX API. Returns list of {period, value} or None."""
     url = f"{BASE_URL}/{dataset}/{key}?startPeriod={start}-01&detail=dataonly&format=csvdata"
+    log.info(f"  GET {url}")
     for attempt in range(1, RETRY_LIMIT + 1):
         try:
             r = requests.get(url, timeout=TIMEOUT, headers={"Accept": "text/csv"})
-            if r.status_code == 404 or r.status_code == 400:
-                return None   # series doesn't exist for this country — expected
+            if r.status_code in (400, 404):
+                log.warning(f"  HTTP {r.status_code} — key not found: {dataset}/{key}")
+                return None
             r.raise_for_status()
-            return parse_csv(r.text)
+            rows = parse_csv(r.text)
+            log.info(f"  → {len(rows)} observations")
+            return rows
         except requests.RequestException as e:
             if attempt < RETRY_LIMIT:
-                log.warning(f"Attempt {attempt} failed for {dataset}/{key}: {e} — retrying in {RETRY_DELAY}s")
+                log.warning(f"  Attempt {attempt} failed: {e} — retrying in {RETRY_DELAY}s")
                 time.sleep(RETRY_DELAY)
             else:
-                log.error(f"All retries failed for {dataset}/{key}: {e}")
+                log.error(f"  All retries failed: {e}")
                 return None
-
 
 def parse_csv(text: str) -> list[dict]:
     """Parse ECB CSV response into [{period, value}]."""
@@ -117,26 +120,24 @@ def scrape_all(filter_dataset: Optional[str] = None) -> dict:
 
     log.info(f"Fetching {len(series_to_fetch)} series...")
 
-    # Accumulate all observations for the master CSV
     all_observations = []
-
-    # Per-dataset + per-theme accumulators for JSON files
     dataset_buckets: dict[str, list] = {ds: [] for ds in DATASETS}
     theme_buckets:   dict[str, list] = {th: [] for th in THEMES}
 
     ok = fail = 0
 
     for i, meta in enumerate(series_to_fetch, 1):
-        log.info(f"[{i}/{len(series_to_fetch)}] {meta['dataset']} | {meta['country']} | {meta['series']}")
+        log.info(f"[{i}/{len(series_to_fetch)}] {meta['dataset']} | {meta['country']} | {meta['series']} | key={meta['key']}")
         rows = fetch_series(meta["key"], meta["dataset"])
 
         if not rows:
             fail += 1
+            log.warning(f"  FAILED — {meta['dataset']}/{meta['key']}")
             continue
 
         ok += 1
+        log.info(f"  OK — {len(rows)} obs, first={rows[0]['period']}, last={rows[-1]['period']}")
 
-        # Build enriched record
         record = {
             "dataset":      meta["dataset"],
             "country_code": meta["country_code"],
@@ -153,7 +154,6 @@ def scrape_all(filter_dataset: Optional[str] = None) -> dict:
         dataset_buckets[meta["dataset"]].append(record)
         theme_buckets[meta["theme"]].append(record)
 
-        # Flat rows for master CSV
         for obs in rows:
             all_observations.append({
                 "dataset":      meta["dataset"],
@@ -168,7 +168,6 @@ def scrape_all(filter_dataset: Optional[str] = None) -> dict:
                 "value":        obs["value"],
             })
 
-        # Small delay to be polite to the ECB API
         time.sleep(0.2)
 
     log.info(f"Done — {ok} series fetched, {fail} empty/failed")
@@ -179,7 +178,6 @@ def scrape_all(filter_dataset: Optional[str] = None) -> dict:
         "ok":               ok,
         "fail":             fail,
     }
-
 
 # ---------------------------------------------------------------------------
 # Save all outputs
