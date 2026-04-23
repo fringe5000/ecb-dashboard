@@ -1,0 +1,80 @@
+name: Scrape ECB Data & Deploy
+
+on:
+  schedule:
+    # Run daily at 06:00 UTC (ECB typically publishes overnight)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      dataset:
+        description: "Single dataset to fetch (leave blank for all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    name: Fetch ECB data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run scraper
+        working-directory: scraper
+        run: |
+          if [ -n "${{ github.event.inputs.dataset }}" ]; then
+            python ecb_scraper.py --dataset "${{ github.event.inputs.dataset }}"
+          else
+            python ecb_scraper.py
+          fi
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "chore: refresh ECB data $(date -u +%Y-%m-%d)"
+          git push
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: scrape
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main   # pick up the just-committed data
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."   # serve entire repo root (index.html + data/)
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
