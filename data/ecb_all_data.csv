@@ -16601,6 +16601,7 @@ FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-06-1
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-06-17,2.4
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-06-18,2.4
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-06-19,2.4
+FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-06-20,2.4
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-01,0.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-02,0.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-03,0.25
@@ -22615,6 +22616,7 @@ FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-06-1
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-06-17,2.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-06-18,2.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-06-19,2.25
+FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-06-20,2.25
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-01,1.75
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-02,1.75
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-03,1.75
@@ -28629,6 +28631,7 @@ FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-06-1
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-06-17,2.65
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-06-18,2.65
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-06-19,2.65
+FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-06-20,2.65
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,2.78
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,2.77
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,2.75
@@ -47173,8 +47176,8 @@ CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Sup
 CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2019-Q3,3.3882281584898553
 CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2019-Q4,3.2059598230677175
 CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2020-Q1,3.04696610311129
-CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2020-Q2,2.928228513053927
-CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2020-Q3,2.8150587526477744
+CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2020-Q2,2.9282285130539263
+CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2020-Q3,2.815058752647774
 CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2020-Q4,2.6326942602402448
 CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2021-Q1,2.5520002375606388
 CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2021-Q2,2.346378909703836
@@ -47183,7 +47186,7 @@ CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Sup
 CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2022-Q1,1.9800574210093076
 CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2022-Q2,1.8896242072990417
 CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2022-Q3,1.8410272292068615
-CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2022-Q4,1.8757805738778415
+CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2022-Q4,1.8761158393246085
 CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2023-Q1,1.8465867896954675
 CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2023-Q2,1.8976477044362439
 CBD2,U2,Euro area,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2023-Q3,1.9126744475905608
@@ -47232,7 +47235,6 @@ CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Super
 CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2023-Q1,1.0682484375156227
 CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2023-Q2,1.1636828418672158
 CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2023-Q3,1.1879776571608234
-CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2023-Q4,1.3224692638927893
 CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2024-Q1,1.3217769726240554
 CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2024-Q2,1.3753118423329784
 CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2024-Q3,1.4591403466313289
@@ -47714,7 +47716,7 @@ CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2019-Q3
 CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2019-Q4,14.83663659474842
 CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2020-Q1,14.452391439216516
 CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2020-Q2,14.945803969758845
-CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2020-Q3,15.24394943614564
+CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2020-Q3,15.243949436145638
 CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2020-Q4,15.562882800932373
 CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2021-Q1,15.433382004106514
 CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2021-Q2,15.509387069171154
@@ -47723,7 +47725,7 @@ CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2021-Q4
 CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2022-Q1,14.919567520828286
 CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2022-Q2,14.938830498538024
 CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2022-Q3,14.750618832763058
-CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2022-Q4,15.251871733765537
+CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2022-Q4,15.248847661626824
 CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2023-Q1,15.344421644519137
 CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2023-Q2,15.548330797990829
 CBD2,U2,Euro area,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2023-Q3,15.49223584307664
@@ -47772,7 +47774,6 @@ CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2022-Q4,1
 CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2023-Q1,15.226369636509387
 CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2023-Q2,15.502407942819143
 CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2023-Q3,15.521717373839339
-CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2023-Q4,16.219140934048532
 CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2024-Q1,16.248257060028987
 CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2024-Q2,16.678235913035323
 CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2024-Q3,16.702909364033534
@@ -48254,7 +48255,7 @@ CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2019-Q4,10.33663659474842
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2020-Q1,9.952391439216516
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2020-Q2,10.445803969758845
-CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2020-Q3,10.74394943614564
+CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2020-Q3,10.743949436145638
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2020-Q4,11.062882800932373
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2021-Q1,10.933382004106514
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2021-Q2,11.009387069171154
@@ -48263,7 +48264,7 @@ CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2022-Q1,10.419567520828286
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2022-Q2,10.438830498538024
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2022-Q3,10.250618832763058
-CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2022-Q4,10.751871733765537
+CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2022-Q4,10.748847661626824
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2023-Q1,10.844421644519137
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2023-Q2,11.048330797990829
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2023-Q3,10.99223584307664
@@ -48273,7 +48274,7 @@ CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2024-Q3,11.478993250134424
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2024-Q4,11.61522256376265
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2025-Q1,11.451093700062405
-CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2025-Q2,11.670480990859325
+CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2025-Q2,11.670479040621405
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2025-Q3,11.67561303058158
 CBD2,U2,Euro area,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2025-Q4,11.712321965118274
 CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2014-Q4,9.671554343640777
@@ -48312,7 +48313,6 @@ CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2
 CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2023-Q1,10.726369636509387
 CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2023-Q2,11.002407942819143
 CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2023-Q3,11.021717373839339
-CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2023-Q4,11.719140934048532
 CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2024-Q1,11.748257060028987
 CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2024-Q2,12.178235913035323
 CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2024-Q3,12.202909364033534
