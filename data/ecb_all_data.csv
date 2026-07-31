@@ -16746,6 +16746,7 @@ FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-07-2
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-07-28,2.4
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-07-29,2.4
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-07-30,2.4
+FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-07-31,2.4
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-01,0.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-02,0.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-03,0.25
@@ -22801,6 +22802,7 @@ FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-07-2
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-07-28,2.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-07-29,2.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-07-30,2.25
+FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-07-31,2.25
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-01,1.75
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-02,1.75
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-03,1.75
@@ -28856,6 +28858,7 @@ FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-07-2
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-07-28,2.65
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-07-29,2.65
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-07-30,2.65
+FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-07-31,2.65
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,2.78
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,2.77
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,2.75
@@ -29053,6 +29056,7 @@ MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rat
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-03,3.6
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-04,3.62
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-05,3.64
+MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-06,3.79
 MIR,DE,Germany,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,3.11
 MIR,DE,Germany,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,3.17
 MIR,DE,Germany,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,3.11
@@ -29250,6 +29254,7 @@ MIR,DE,Germany,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates
 MIR,DE,Germany,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-03,3.81
 MIR,DE,Germany,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-04,3.78
 MIR,DE,Germany,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-05,3.72
+MIR,DE,Germany,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-06,4.0
 MIR,FR,France,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,2.33
 MIR,FR,France,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,2.32
 MIR,FR,France,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,2.42
@@ -29447,6 +29452,7 @@ MIR,FR,France,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,
 MIR,FR,France,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-03,3.5
 MIR,FR,France,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-04,3.53
 MIR,FR,France,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-05,3.52
+MIR,FR,France,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-06,3.62
 MIR,IT,Italy,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,2.85
 MIR,IT,Italy,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,2.78
 MIR,IT,Italy,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,2.77
@@ -29644,6 +29650,7 @@ MIR,IT,Italy,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2
 MIR,IT,Italy,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-03,3.49
 MIR,IT,Italy,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-04,3.65
 MIR,IT,Italy,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-05,3.77
+MIR,IT,Italy,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-06,3.77
 MIR,ES,Spain,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,2.55
 MIR,ES,Spain,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,2.53
 MIR,ES,Spain,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,2.63
@@ -29841,6 +29848,7 @@ MIR,ES,Spain,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2
 MIR,ES,Spain,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-03,3.28
 MIR,ES,Spain,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-04,3.45
 MIR,ES,Spain,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-05,3.51
+MIR,ES,Spain,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-06,3.55
 MIR,NL,Netherlands,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,2.61
 MIR,NL,Netherlands,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,2.6
 MIR,NL,Netherlands,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,2.45
@@ -30038,6 +30046,7 @@ MIR,NL,Netherlands,NFC lending rate — new business,NFC_rate_new,PCT,Interest r
 MIR,NL,Netherlands,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-03,3.18
 MIR,NL,Netherlands,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-04,3.02
 MIR,NL,Netherlands,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-05,3.16
+MIR,NL,Netherlands,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-06,3.29
 MIR,BE,Belgium,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,2.19
 MIR,BE,Belgium,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,2.11
 MIR,BE,Belgium,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,2.19
@@ -30235,6 +30244,7 @@ MIR,BE,Belgium,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates
 MIR,BE,Belgium,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-03,3.59
 MIR,BE,Belgium,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-04,3.56
 MIR,BE,Belgium,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-05,3.6
+MIR,BE,Belgium,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-06,3.77
 MIR,AT,Austria,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,2.28
 MIR,AT,Austria,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,2.21
 MIR,AT,Austria,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,2.18
@@ -30432,6 +30442,7 @@ MIR,AT,Austria,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates
 MIR,AT,Austria,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-03,3.57
 MIR,AT,Austria,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-04,3.53
 MIR,AT,Austria,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-05,3.51
+MIR,AT,Austria,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-06,3.63
 MIR,IE,Ireland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,3.06
 MIR,IE,Ireland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,3.27
 MIR,IE,Ireland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,2.92
@@ -30629,6 +30640,7 @@ MIR,IE,Ireland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates
 MIR,IE,Ireland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-03,4.99
 MIR,IE,Ireland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-04,4.93
 MIR,IE,Ireland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-05,4.9
+MIR,IE,Ireland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-06,5.11
 MIR,PT,Portugal,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,4.31
 MIR,PT,Portugal,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,4.07
 MIR,PT,Portugal,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,4.17
@@ -30826,6 +30838,7 @@ MIR,PT,Portugal,NFC lending rate — new business,NFC_rate_new,PCT,Interest rate
 MIR,PT,Portugal,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-03,3.66
 MIR,PT,Portugal,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-04,3.88
 MIR,PT,Portugal,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-05,4.01
+MIR,PT,Portugal,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-06,4.17
 MIR,FI,Finland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,2.06
 MIR,FI,Finland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,1.92
 MIR,FI,Finland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,2.04
@@ -31023,6 +31036,7 @@ MIR,FI,Finland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates
 MIR,FI,Finland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-03,3.79
 MIR,FI,Finland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-04,3.76
 MIR,FI,Finland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-05,3.51
+MIR,FI,Finland,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-06,3.64
 MIR,GR,Greece,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,4.52
 MIR,GR,Greece,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,4.64
 MIR,GR,Greece,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,4.84
@@ -31220,6 +31234,7 @@ MIR,GR,Greece,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,
 MIR,GR,Greece,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-03,4.06
 MIR,GR,Greece,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-04,4.47
 MIR,GR,Greece,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-05,4.29
+MIR,GR,Greece,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2026-06,4.32
 MIR,U2,Euro area,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-01,3.63
 MIR,U2,Euro area,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-02,3.61
 MIR,U2,Euro area,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-03,3.54
@@ -31417,6 +31432,7 @@ MIR,U2,Euro area,Household mortgage rate — new business,HH_mortgage_new,PCT,In
 MIR,U2,Euro area,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-03,3.35
 MIR,U2,Euro area,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-04,3.44
 MIR,U2,Euro area,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-05,3.48
+MIR,U2,Euro area,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-06,3.51
 MIR,DE,Germany,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-01,4.04
 MIR,DE,Germany,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-02,3.98
 MIR,DE,Germany,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-03,3.89
@@ -31614,6 +31630,7 @@ MIR,DE,Germany,Household mortgage rate — new business,HH_mortgage_new,PCT,Inte
 MIR,DE,Germany,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-03,3.72
 MIR,DE,Germany,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-04,3.84
 MIR,DE,Germany,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-05,3.93
+MIR,DE,Germany,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-06,3.95
 MIR,FR,France,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-01,3.89
 MIR,FR,France,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-02,3.87
 MIR,FR,France,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-03,3.82
@@ -31811,6 +31828,7 @@ MIR,FR,France,Household mortgage rate — new business,HH_mortgage_new,PCT,Inter
 MIR,FR,France,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-03,3.1
 MIR,FR,France,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-04,3.11
 MIR,FR,France,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-05,3.1
+MIR,FR,France,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-06,3.16
 MIR,IT,Italy,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-01,3.54
 MIR,IT,Italy,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-02,3.41
 MIR,IT,Italy,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-03,3.32
@@ -32008,6 +32026,7 @@ MIR,IT,Italy,Household mortgage rate — new business,HH_mortgage_new,PCT,Intere
 MIR,IT,Italy,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-03,3.39
 MIR,IT,Italy,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-04,3.52
 MIR,IT,Italy,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-05,3.54
+MIR,IT,Italy,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-06,3.54
 MIR,ES,Spain,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-01,2.52
 MIR,ES,Spain,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-02,2.57
 MIR,ES,Spain,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-03,2.49
@@ -32205,6 +32224,7 @@ MIR,ES,Spain,Household mortgage rate — new business,HH_mortgage_new,PCT,Intere
 MIR,ES,Spain,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-03,2.75
 MIR,ES,Spain,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-04,2.81
 MIR,ES,Spain,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-05,2.85
+MIR,ES,Spain,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-06,2.89
 MIR,NL,Netherlands,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-01,4.85
 MIR,NL,Netherlands,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-02,4.78
 MIR,NL,Netherlands,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-03,4.72
@@ -32402,6 +32422,7 @@ MIR,NL,Netherlands,Household mortgage rate — new business,HH_mortgage_new,PCT,
 MIR,NL,Netherlands,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-03,3.47
 MIR,NL,Netherlands,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-04,3.63
 MIR,NL,Netherlands,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-05,3.66
+MIR,NL,Netherlands,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-06,3.71
 MIR,BE,Belgium,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-01,3.93
 MIR,BE,Belgium,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-02,3.87
 MIR,BE,Belgium,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-03,3.78
@@ -32599,6 +32620,7 @@ MIR,BE,Belgium,Household mortgage rate — new business,HH_mortgage_new,PCT,Inte
 MIR,BE,Belgium,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-03,3.44
 MIR,BE,Belgium,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-04,3.53
 MIR,BE,Belgium,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-05,3.56
+MIR,BE,Belgium,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-06,3.6
 MIR,AT,Austria,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-01,3.01
 MIR,AT,Austria,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-02,2.81
 MIR,AT,Austria,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-03,2.79
@@ -32796,6 +32818,7 @@ MIR,AT,Austria,Household mortgage rate — new business,HH_mortgage_new,PCT,Inte
 MIR,AT,Austria,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-03,3.45
 MIR,AT,Austria,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-04,3.48
 MIR,AT,Austria,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-05,3.51
+MIR,AT,Austria,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-06,3.53
 MIR,IE,Ireland,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-01,2.71
 MIR,IE,Ireland,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-02,2.85
 MIR,IE,Ireland,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-03,2.9
@@ -32993,6 +33016,7 @@ MIR,IE,Ireland,Household mortgage rate — new business,HH_mortgage_new,PCT,Inte
 MIR,IE,Ireland,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-03,3.5
 MIR,IE,Ireland,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-04,3.51
 MIR,IE,Ireland,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-05,3.48
+MIR,IE,Ireland,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-06,3.46
 MIR,PT,Portugal,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-01,2.29
 MIR,PT,Portugal,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-02,2.33
 MIR,PT,Portugal,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-03,2.35
@@ -33190,6 +33214,7 @@ MIR,PT,Portugal,Household mortgage rate — new business,HH_mortgage_new,PCT,Int
 MIR,PT,Portugal,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-03,2.81
 MIR,PT,Portugal,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-04,2.87
 MIR,PT,Portugal,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-05,2.91
+MIR,PT,Portugal,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-06,2.95
 MIR,FI,Finland,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-01,1.96
 MIR,FI,Finland,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-02,1.92
 MIR,FI,Finland,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-03,1.87
@@ -33387,6 +33412,7 @@ MIR,FI,Finland,Household mortgage rate — new business,HH_mortgage_new,PCT,Inte
 MIR,FI,Finland,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-03,2.96
 MIR,FI,Finland,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-04,3.02
 MIR,FI,Finland,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-05,3.07
+MIR,FI,Finland,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-06,3.1
 MIR,GR,Greece,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-01,3.8
 MIR,GR,Greece,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-02,3.72
 MIR,GR,Greece,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2010-03,3.81
@@ -33584,6 +33610,7 @@ MIR,GR,Greece,Household mortgage rate — new business,HH_mortgage_new,PCT,Inter
 MIR,GR,Greece,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-03,3.4
 MIR,GR,Greece,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-04,3.35
 MIR,GR,Greece,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-05,3.31
+MIR,GR,Greece,Household mortgage rate — new business,HH_mortgage_new,PCT,Interest rates,2026-06,3.26
 MIR,U2,Euro area,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-01,0.43
 MIR,U2,Euro area,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-02,0.42
 MIR,U2,Euro area,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-03,0.42
@@ -33781,6 +33808,7 @@ MIR,U2,Euro area,Overnight deposit rate — households,HH_deposit_ON,PCT,Interes
 MIR,U2,Euro area,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-03,0.26
 MIR,U2,Euro area,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-04,0.26
 MIR,U2,Euro area,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-05,0.27
+MIR,U2,Euro area,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-06,0.28
 MIR,DE,Germany,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-01,0.73
 MIR,DE,Germany,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-02,0.71
 MIR,DE,Germany,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-03,0.7
@@ -33978,6 +34006,7 @@ MIR,DE,Germany,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest 
 MIR,DE,Germany,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-03,0.47
 MIR,DE,Germany,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-04,0.48
 MIR,DE,Germany,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-05,0.48
+MIR,DE,Germany,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-06,0.51
 MIR,FR,France,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-01,0.09
 MIR,FR,France,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-02,0.09
 MIR,FR,France,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-03,0.08
@@ -34175,6 +34204,7 @@ MIR,FR,France,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest r
 MIR,FR,France,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-03,0.04
 MIR,FR,France,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-04,0.04
 MIR,FR,France,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-05,0.04
+MIR,FR,France,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-06,0.04
 MIR,IT,Italy,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-01,0.24
 MIR,IT,Italy,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-02,0.24
 MIR,IT,Italy,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-03,0.24
@@ -34372,6 +34402,7 @@ MIR,IT,Italy,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest ra
 MIR,IT,Italy,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-03,0.17
 MIR,IT,Italy,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-04,0.17
 MIR,IT,Italy,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-05,0.17
+MIR,IT,Italy,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-06,0.19
 MIR,ES,Spain,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-01,0.31
 MIR,ES,Spain,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-02,0.31
 MIR,ES,Spain,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-03,0.31
@@ -34568,7 +34599,8 @@ MIR,ES,Spain,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest ra
 MIR,ES,Spain,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-02,0.14
 MIR,ES,Spain,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-03,0.15
 MIR,ES,Spain,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-04,0.15
-MIR,ES,Spain,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-05,0.15
+MIR,ES,Spain,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-05,0.16
+MIR,ES,Spain,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-06,0.16
 MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-01,0.43
 MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-02,0.42
 MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-03,0.44
@@ -34766,6 +34798,7 @@ MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Inter
 MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-03,0.13
 MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-04,0.13
 MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-05,0.21
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-06,0.15
 MIR,BE,Belgium,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-01,0.33
 MIR,BE,Belgium,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-02,0.33
 MIR,BE,Belgium,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-03,0.28
@@ -34963,6 +34996,7 @@ MIR,BE,Belgium,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest 
 MIR,BE,Belgium,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-03,0.05
 MIR,BE,Belgium,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-04,0.05
 MIR,BE,Belgium,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-05,0.05
+MIR,BE,Belgium,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-06,0.06
 MIR,AT,Austria,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-01,0.62
 MIR,AT,Austria,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-02,0.63
 MIR,AT,Austria,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-03,0.63
@@ -35160,6 +35194,7 @@ MIR,AT,Austria,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest 
 MIR,AT,Austria,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-03,0.41
 MIR,AT,Austria,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-04,0.4
 MIR,AT,Austria,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-05,0.41
+MIR,AT,Austria,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-06,0.41
 MIR,IE,Ireland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-01,0.66
 MIR,IE,Ireland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-02,0.63
 MIR,IE,Ireland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-03,0.65
@@ -35303,6 +35338,7 @@ MIR,IE,Ireland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest 
 MIR,IE,Ireland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-03,0.14
 MIR,IE,Ireland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-04,0.14
 MIR,IE,Ireland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-05,0.14
+MIR,IE,Ireland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-06,0.14
 MIR,PT,Portugal,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-01,0.06
 MIR,PT,Portugal,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-02,0.06
 MIR,PT,Portugal,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-03,0.04
@@ -35500,6 +35536,7 @@ MIR,PT,Portugal,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest
 MIR,PT,Portugal,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-03,0.03
 MIR,PT,Portugal,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-04,0.03
 MIR,PT,Portugal,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-05,0.03
+MIR,PT,Portugal,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-06,0.03
 MIR,FI,Finland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-01,0.38
 MIR,FI,Finland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-02,0.38
 MIR,FI,Finland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-03,0.38
@@ -35697,6 +35734,7 @@ MIR,FI,Finland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest 
 MIR,FI,Finland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-03,0.37
 MIR,FI,Finland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-04,0.37
 MIR,FI,Finland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-05,0.37
+MIR,FI,Finland,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-06,0.37
 MIR,GR,Greece,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-01,0.43
 MIR,GR,Greece,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-02,0.44
 MIR,GR,Greece,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-03,0.43
@@ -35894,6 +35932,7 @@ MIR,GR,Greece,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest r
 MIR,GR,Greece,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-03,0.03
 MIR,GR,Greece,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-04,0.03
 MIR,GR,Greece,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-05,0.03
+MIR,GR,Greece,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-06,0.03
 ICP,U2,Euro area,HICP — all items,HICP_all,PCT,Inflation,2010-01,0.9
 ICP,U2,Euro area,HICP — all items,HICP_all,PCT,Inflation,2010-02,0.8
 ICP,U2,Euro area,HICP — all items,HICP_all,PCT,Inflation,2010-03,1.6
