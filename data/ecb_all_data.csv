@@ -10097,6 +10097,7 @@ FM,U2,Euro area,Euribor 1-month,EURIBOR1M,PCT,Interest rates,2026-03,1.9327727
 FM,U2,Euro area,Euribor 1-month,EURIBOR1M,PCT,Interest rates,2026-04,1.9712
 FM,U2,Euro area,Euribor 1-month,EURIBOR1M,PCT,Interest rates,2026-05,1.95655
 FM,U2,Euro area,Euribor 1-month,EURIBOR1M,PCT,Interest rates,2026-06,2.1463182
+FM,U2,Euro area,Euribor 1-month,EURIBOR1M,PCT,Interest rates,2026-07,2.2140435
 FM,U2,Euro area,Euribor 3-month,EURIBOR3M,PCT,Interest rates,2010-01,0.67975
 FM,U2,Euro area,Euribor 3-month,EURIBOR3M,PCT,Interest rates,2010-02,0.6617
 FM,U2,Euro area,Euribor 3-month,EURIBOR3M,PCT,Interest rates,2010-03,0.6449565
@@ -10295,6 +10296,7 @@ FM,U2,Euro area,Euribor 3-month,EURIBOR3M,PCT,Interest rates,2026-03,2.1094091
 FM,U2,Euro area,Euribor 3-month,EURIBOR3M,PCT,Interest rates,2026-04,2.1753
 FM,U2,Euro area,Euribor 3-month,EURIBOR3M,PCT,Interest rates,2026-05,2.2261
 FM,U2,Euro area,Euribor 3-month,EURIBOR3M,PCT,Interest rates,2026-06,2.339
+FM,U2,Euro area,Euribor 3-month,EURIBOR3M,PCT,Interest rates,2026-07,2.4253913
 FM,U2,Euro area,Euribor 6-month,EURIBOR6M,PCT,Interest rates,2010-01,0.97725
 FM,U2,Euro area,Euribor 6-month,EURIBOR6M,PCT,Interest rates,2010-02,0.96455
 FM,U2,Euro area,Euribor 6-month,EURIBOR6M,PCT,Interest rates,2010-03,0.9524348
@@ -10493,6 +10495,7 @@ FM,U2,Euro area,Euribor 6-month,EURIBOR6M,PCT,Interest rates,2026-03,2.3219545
 FM,U2,Euro area,Euribor 6-month,EURIBOR6M,PCT,Interest rates,2026-04,2.45375
 FM,U2,Euro area,Euribor 6-month,EURIBOR6M,PCT,Interest rates,2026-05,2.5364
 FM,U2,Euro area,Euribor 6-month,EURIBOR6M,PCT,Interest rates,2026-06,2.5955
+FM,U2,Euro area,Euribor 6-month,EURIBOR6M,PCT,Interest rates,2026-07,2.6467391
 FM,U2,Euro area,Euribor 12-month,EURIBOR12M,PCT,Interest rates,2010-01,1.23215
 FM,U2,Euro area,Euribor 12-month,EURIBOR12M,PCT,Interest rates,2010-02,1.2252
 FM,U2,Euro area,Euribor 12-month,EURIBOR12M,PCT,Interest rates,2010-03,1.2151304
@@ -10691,6 +10694,7 @@ FM,U2,Euro area,Euribor 12-month,EURIBOR12M,PCT,Interest rates,2026-03,2.5651364
 FM,U2,Euro area,Euribor 12-month,EURIBOR12M,PCT,Interest rates,2026-04,2.7468
 FM,U2,Euro area,Euribor 12-month,EURIBOR12M,PCT,Interest rates,2026-05,2.8042
 FM,U2,Euro area,Euribor 12-month,EURIBOR12M,PCT,Interest rates,2026-06,2.7975909
+FM,U2,Euro area,Euribor 12-month,EURIBOR12M,PCT,Interest rates,2026-07,2.855087
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2010-01-01,1.0
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2010-01-02,1.0
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2010-01-03,1.0
@@ -16747,6 +16751,7 @@ FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-07-2
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-07-29,2.4
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-07-30,2.4
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-07-31,2.4
+FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-08-01,2.4
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-01,0.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-02,0.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-03,0.25
@@ -22803,6 +22808,7 @@ FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-07-2
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-07-29,2.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-07-30,2.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-07-31,2.25
+FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-08-01,2.25
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-01,1.75
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-02,1.75
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-03,1.75
@@ -28859,6 +28865,7 @@ FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-07-2
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-07-29,2.65
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-07-30,2.65
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-07-31,2.65
+FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-08-01,2.65
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,2.78
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,2.77
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,2.75
