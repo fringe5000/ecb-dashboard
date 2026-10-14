@@ -16933,6 +16933,7 @@ FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-10-1
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-10-11,2.65
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-10-12,2.65
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-10-13,2.65
+FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-10-14,2.65
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-01,0.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-02,0.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-03,0.25
@@ -23063,6 +23064,7 @@ FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-10-1
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-10-11,2.5
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-10-12,2.5
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-10-13,2.5
+FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-10-14,2.5
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-01,1.75
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-02,1.75
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-03,1.75
@@ -29193,6 +29195,7 @@ FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-10-1
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-10-11,2.9
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-10-12,2.9
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-10-13,2.9
+FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-10-14,2.9
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,2.78
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,2.77
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,2.75
@@ -47941,6 +47944,7 @@ CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Super
 CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2023-Q1,1.0682484375156227
 CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2023-Q2,1.1636828418672158
 CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2023-Q3,1.1879776571608234
+CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2023-Q4,1.3224692638927893
 CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2024-Q1,1.3217769726240554
 CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2024-Q2,1.3753118423329784
 CBD2,DE,Germany,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2024-Q3,1.4591403466313289
@@ -48116,11 +48120,11 @@ CBD2,NL,Netherlands,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,S
 CBD2,NL,Netherlands,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2021-Q1,1.7527741883902332
 CBD2,NL,Netherlands,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2021-Q2,1.637493970930192
 CBD2,NL,Netherlands,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2021-Q3,1.5058267207069254
-CBD2,NL,Netherlands,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2021-Q4,1.3907874263555993
+CBD2,NL,Netherlands,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2021-Q4,1.4456965778115707
 CBD2,NL,Netherlands,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2022-Q1,1.3136530003544513
 CBD2,NL,Netherlands,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2022-Q2,1.2840053920402792
 CBD2,NL,Netherlands,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2022-Q3,1.2013623903815929
-CBD2,NL,Netherlands,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2022-Q4,1.3572771977924594
+CBD2,NL,Netherlands,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2022-Q4,1.3595480938600064
 CBD2,NL,Netherlands,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2023-Q1,1.2592223311778803
 CBD2,NL,Netherlands,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2023-Q2,1.301209252384049
 CBD2,NL,Netherlands,NPL ratio — gross non-performing loans (%),NPL_ratio,PCT,Supervisory banking data,2023-Q3,1.3276097824083253
@@ -48492,6 +48496,7 @@ CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2022-Q4,1
 CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2023-Q1,15.226369636509387
 CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2023-Q2,15.502407942819143
 CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2023-Q3,15.521717373839339
+CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2023-Q4,16.219140934048532
 CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2024-Q1,16.248257060028987
 CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2024-Q2,16.678235913035323
 CBD2,DE,Germany,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2024-Q3,16.702909364033534
@@ -48671,7 +48676,7 @@ CBD2,NL,Netherlands,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2021-
 CBD2,NL,Netherlands,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2022-Q1,16.014364220173157
 CBD2,NL,Netherlands,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2022-Q2,15.97914558469776
 CBD2,NL,Netherlands,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2022-Q3,15.943584847940857
-CBD2,NL,Netherlands,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2022-Q4,16.145027197832825
+CBD2,NL,Netherlands,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2022-Q4,16.107315571129313
 CBD2,NL,Netherlands,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2023-Q1,16.30615592000152
 CBD2,NL,Netherlands,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2023-Q2,16.578615892469028
 CBD2,NL,Netherlands,CET1 ratio (%),CET1_ratio,PCT,Supervisory banking data,2023-Q3,16.667712325844
@@ -49043,6 +49048,7 @@ CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2
 CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2023-Q1,10.726369636509387
 CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2023-Q2,11.002407942819143
 CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2023-Q3,11.021717373839339
+CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2023-Q4,11.719140934048532
 CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2024-Q1,11.748257060028987
 CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2024-Q2,12.178235913035323
 CBD2,DE,Germany,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2024-Q3,12.202909364033534
@@ -49222,7 +49228,7 @@ CBD2,NL,Netherlands,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking da
 CBD2,NL,Netherlands,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2022-Q1,11.514364220173157
 CBD2,NL,Netherlands,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2022-Q2,11.47914558469776
 CBD2,NL,Netherlands,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2022-Q3,11.443584847940857
-CBD2,NL,Netherlands,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2022-Q4,11.645027197832825
+CBD2,NL,Netherlands,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2022-Q4,11.607315571129313
 CBD2,NL,Netherlands,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2023-Q1,11.806155920001519
 CBD2,NL,Netherlands,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2023-Q2,12.078615892469028
 CBD2,NL,Netherlands,Leverage ratio (%),leverage_ratio,PCT,Supervisory banking data,2023-Q3,12.167712325844
