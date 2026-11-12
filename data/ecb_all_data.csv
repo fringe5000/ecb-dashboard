@@ -17016,6 +17016,7 @@ FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-11-0
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-11-09,2.65
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-11-10,2.65
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-11-11,2.65
+FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-11-12,2.65
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-01,0.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-02,0.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-03,0.25
@@ -23175,6 +23176,7 @@ FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-11-0
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-11-09,2.5
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-11-10,2.5
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-11-11,2.5
+FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-11-12,2.5
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-01,1.75
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-02,1.75
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-03,1.75
@@ -29334,6 +29336,7 @@ FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-11-0
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-11-09,2.9
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-11-10,2.9
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-11-11,2.9
+FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-11-12,2.9
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,2.78
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,2.77
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,2.75
@@ -35163,6 +35166,207 @@ MIR,ES,Spain,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest ra
 MIR,ES,Spain,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-07,0.16
 MIR,ES,Spain,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-08,0.16
 MIR,ES,Spain,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-09,0.16
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-01,0.43
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-02,0.42
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-03,0.44
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-04,0.45
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-05,0.42
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-06,0.43
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-07,0.45
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-08,0.47
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-09,0.46
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-10,0.44
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-11,0.44
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-12,0.43
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2011-01,0.44
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2011-02,0.44
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2011-03,0.48
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2011-04,0.51
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2011-05,0.47
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2011-06,0.49
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2011-07,0.5
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2011-08,0.54
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2011-09,0.54
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2011-10,0.58
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2011-11,0.57
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2011-12,0.56
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2012-01,0.55
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2012-02,0.55
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2012-03,0.54
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2012-04,0.54
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2012-05,0.5
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2012-06,0.49
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2012-07,0.5
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2012-08,0.49
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2012-09,0.46
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2012-10,0.47
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2012-11,0.46
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2012-12,0.45
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2013-01,0.44
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2013-02,0.43
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2013-03,0.41
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2013-04,0.43
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2013-05,0.39
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2013-06,0.4
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2013-07,0.41
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2013-08,0.4
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2013-09,0.4
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2013-10,0.41
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2013-11,0.39
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2013-12,0.39
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2014-01,0.38
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2014-02,0.39
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2014-03,0.4
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2014-04,0.4
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2014-05,0.36
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2014-06,0.35
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2014-07,0.36
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2014-08,0.35
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2014-09,0.36
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2014-10,0.34
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2014-11,0.34
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2014-12,0.37
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2015-01,0.36
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2015-02,0.34
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2015-03,0.35
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2015-04,0.35
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2015-05,0.32
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2015-06,0.33
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2015-07,0.33
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2015-08,0.33
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2015-09,0.33
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2015-10,0.32
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2015-11,0.32
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2015-12,0.32
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2016-01,0.31
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2016-02,0.3
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2016-03,0.29
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2016-04,0.29
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2016-05,0.26
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2016-06,0.26
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2016-07,0.26
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2016-08,0.26
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2016-09,0.25
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2016-10,0.24
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2016-11,0.24
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2016-12,0.09
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2017-01,0.08
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2017-02,0.09
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2017-03,0.09
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2017-04,0.09
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2017-05,0.08
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2017-06,0.06
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2017-07,0.06
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2017-08,0.06
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2017-09,0.05
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2017-10,0.05
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2017-11,0.05
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2017-12,0.18
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2018-01,0.17
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2018-02,0.05
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2018-03,0.04
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2018-04,0.03
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2018-05,0.03
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2018-06,0.03
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2018-07,0.03
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2018-08,0.03
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2018-09,0.03
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2018-10,0.13
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2018-11,0.13
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2018-12,0.06
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2019-01,0.02
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2019-02,0.02
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2019-03,0.02
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2019-04,0.05
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2019-05,0.04
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2019-06,0.04
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2019-07,0.05
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2019-08,0.02
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2019-09,0.02
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2019-10,0.02
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2019-11,0.02
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2019-12,0.02
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2020-01,0.02
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2020-02,0.02
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2020-03,0.01
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2020-04,0.0
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2020-05,0.01
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2020-06,0.01
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2020-07,0.0
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2020-08,0.0
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2020-09,0.0
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2020-10,0.0
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2020-11,0.0
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2020-12,0.0
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2021-01,0.0
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2021-02,0.0
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2021-03,0.0
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2021-04,0.0
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2021-05,0.0
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2021-06,0.0
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2021-07,0.02
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2021-08,0.01
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2021-09,0.01
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2021-10,0.01
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2021-11,0.01
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2021-12,-0.03
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2022-01,-0.03
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2022-02,-0.03
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2022-03,-0.04
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2022-04,-0.04
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2022-05,-0.03
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2022-06,-0.03
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2022-07,0.01
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2022-08,-0.01
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2022-09,0.0
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2022-10,0.01
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2022-11,0.01
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2022-12,0.03
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2023-01,0.03
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2023-02,0.03
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2023-03,0.05
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2023-04,0.06
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2023-05,0.06
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2023-06,0.09
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2023-07,0.1
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2023-08,0.11
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2023-09,0.16
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2023-10,0.17
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2023-11,0.17
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2023-12,0.2
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2024-01,0.22
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2024-02,0.22
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2024-03,0.24
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2024-04,0.24
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2024-05,0.23
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2024-06,0.24
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2024-07,0.24
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2024-08,0.25
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2024-09,0.24
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2024-10,0.24
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2024-11,0.24
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2024-12,0.23
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2025-01,0.24
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2025-02,0.25
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2025-03,0.2
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2025-04,0.11
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2025-05,0.12
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2025-06,0.11
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2025-07,0.1
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2025-08,0.11
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2025-09,0.1
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2025-10,0.09
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2025-11,0.1
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2025-12,0.1
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-01,0.13
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-02,0.15
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-03,0.14
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-04,0.14
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-05,0.21
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-06,0.15
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-07,0.14
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-08,0.14
+MIR,NL,Netherlands,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2026-09,0.15
 MIR,BE,Belgium,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-01,0.33
 MIR,BE,Belgium,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-02,0.33
 MIR,BE,Belgium,Overnight deposit rate — households,HH_deposit_ON,PCT,Interest rates,2010-03,0.28
