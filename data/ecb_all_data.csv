@@ -190,16 +190,17 @@ BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,
 BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2025-09,5237450.572931999
 BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2025-10,5258125.289821
 BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2025-11,5277722.649273001
-BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2025-12,5278322.94238974
+BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2025-12,5278316.94238974
 BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-01,5294228.479885
 BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-02,5323049.627112
-BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-03,5354934.065247
-BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-04,5385612.646066
-BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-05,5409729.12665526
-BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-06,5440942.83621198
-BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-07,5480057.21271093
-BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-08,5463017.0816958295
-BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,5472010.1280203
+BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-03,5355016.065247
+BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-04,5385706.646066
+BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-05,5409772.12665526
+BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-06,5441023.83621198
+BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-07,5480652.17051093
+BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-08,5463287.59439583
+BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,5472903.8880203
+BSI,U2,Euro area,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-10,5506504.05353296
 BSI,DE,Germany,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-01,903653.0
 BSI,DE,Germany,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-02,906941.0
 BSI,DE,Germany,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-03,899163.0
@@ -400,7 +401,8 @@ BSI,DE,Germany,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,20
 BSI,DE,Germany,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-06,1380350.0
 BSI,DE,Germany,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-07,1380925.0
 BSI,DE,Germany,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-08,1384554.0
-BSI,DE,Germany,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,1388706.0
+BSI,DE,Germany,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,1388610.0
+BSI,DE,Germany,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-10,1395818.0
 BSI,FR,France,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-01,825874.0
 BSI,FR,France,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-02,825742.0
 BSI,FR,France,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-03,828342.0
@@ -601,7 +603,8 @@ BSI,FR,France,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,202
 BSI,FR,France,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-06,1474703.0
 BSI,FR,France,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-07,1485004.0
 BSI,FR,France,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-08,1474515.0
-BSI,FR,France,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,1473112.0
+BSI,FR,France,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,1473686.0
+BSI,FR,France,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-10,1488578.0
 BSI,IT,Italy,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-01,858101.0
 BSI,IT,Italy,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-02,858621.0
 BSI,IT,Italy,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-03,857229.0
@@ -802,7 +805,8 @@ BSI,IT,Italy,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026
 BSI,IT,Italy,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-06,636593.0
 BSI,IT,Italy,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-07,639276.0
 BSI,IT,Italy,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-08,634138.0
-BSI,IT,Italy,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,638232.0
+BSI,IT,Italy,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,638235.0
+BSI,IT,Italy,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-10,637322.0
 BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-01,926140.0
 BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-02,924496.0
 BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-03,924106.0
@@ -998,12 +1002,13 @@ BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2025
 BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-01,485602.0
 BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-02,487387.0
 BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-03,496374.0
-BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-04,497771.0
-BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-05,497283.0
-BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-06,504643.0
-BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-07,507933.0
-BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-08,501472.0
-BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,507151.0
+BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-04,497795.0
+BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-05,497333.0
+BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-06,504790.0
+BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-07,508104.0
+BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-08,501744.0
+BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,507518.0
+BSI,ES,Spain,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-10,508324.0
 BSI,NL,Netherlands,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-01,345335.0
 BSI,NL,Netherlands,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-02,347203.0
 BSI,NL,Netherlands,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-03,347967.0
@@ -1205,6 +1210,7 @@ BSI,NL,Netherlands,NFC loans — outstanding,NFC_total,EUR,Bank lending by secto
 BSI,NL,Netherlands,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-07,470710.0
 BSI,NL,Netherlands,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-08,473781.0
 BSI,NL,Netherlands,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,464492.0
+BSI,NL,Netherlands,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-10,473828.0
 BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-01,113498.0
 BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-02,113643.0
 BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-03,113070.0
@@ -1396,7 +1402,7 @@ BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,20
 BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2025-09,187995.0
 BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2025-10,187838.0
 BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2025-11,189032.0
-BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2025-12,191320.0
+BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2025-12,191754.0
 BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-01,192554.0
 BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-02,201311.0
 BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-03,193875.0
@@ -1405,7 +1411,8 @@ BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,20
 BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-06,201459.0
 BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-07,202828.0
 BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-08,202470.0
-BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,203583.0
+BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,203689.0
+BSI,BE,Belgium,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-10,203438.0
 BSI,AT,Austria,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-01,154664.0
 BSI,AT,Austria,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-02,154829.0
 BSI,AT,Austria,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-03,155442.0
@@ -1603,10 +1610,11 @@ BSI,AT,Austria,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,20
 BSI,AT,Austria,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-03,243454.0
 BSI,AT,Austria,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-04,243752.0
 BSI,AT,Austria,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-05,245094.0
-BSI,AT,Austria,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-06,246369.0
-BSI,AT,Austria,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-07,247549.0
+BSI,AT,Austria,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-06,246368.0
+BSI,AT,Austria,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-07,247973.0
 BSI,AT,Austria,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-08,247323.0
-BSI,AT,Austria,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,248265.0
+BSI,AT,Austria,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,248256.0
+BSI,AT,Austria,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-10,248022.0
 BSI,IE,Ireland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-01,161849.0
 BSI,IE,Ireland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-02,159338.0
 BSI,IE,Ireland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-03,156942.0
@@ -1807,7 +1815,8 @@ BSI,IE,Ireland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,20
 BSI,IE,Ireland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-06,59313.0
 BSI,IE,Ireland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-07,60703.0
 BSI,IE,Ireland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-08,59715.0
-BSI,IE,Ireland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,60436.0
+BSI,IE,Ireland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,60432.0
+BSI,IE,Ireland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-10,62856.0
 BSI,PT,Portugal,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-01,121898.0
 BSI,PT,Portugal,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-02,122189.0
 BSI,PT,Portugal,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-03,121952.0
@@ -2008,7 +2017,8 @@ BSI,PT,Portugal,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2
 BSI,PT,Portugal,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-06,79170.64
 BSI,PT,Portugal,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-07,79598.5
 BSI,PT,Portugal,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-08,78948.46
-BSI,PT,Portugal,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,79387.11
+BSI,PT,Portugal,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,79374.87000000001
+BSI,PT,Portugal,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-10,79072.62
 BSI,FI,Finland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-01,56717.0
 BSI,FI,Finland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-02,57004.0
 BSI,FI,Finland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-03,57105.0
@@ -2210,6 +2220,7 @@ BSI,FI,Finland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,20
 BSI,FI,Finland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-07,114623.0
 BSI,FI,Finland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-08,114750.0
 BSI,FI,Finland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,115193.0
+BSI,FI,Finland,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-10,115356.0
 BSI,GR,Greece,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-01,93777.0
 BSI,GR,Greece,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-02,93250.0
 BSI,GR,Greece,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2010-03,93668.0
@@ -2410,7 +2421,8 @@ BSI,GR,Greece,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,202
 BSI,GR,Greece,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-06,85744.0
 BSI,GR,Greece,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-07,83933.0
 BSI,GR,Greece,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-08,84035.0
-BSI,GR,Greece,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,85050.0
+BSI,GR,Greece,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-09,85095.0
+BSI,GR,Greece,NFC loans — outstanding,NFC_total,EUR,Bank lending by sector,2026-10,84269.0
 BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-01,-2.691671650676475
 BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-02,-2.422340612267404
 BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-03,-2.372750919065536
@@ -2600,18 +2612,19 @@ BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by
 BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-07,2.521435004375139
 BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-08,2.6698122111435296
 BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-09,2.756742327777917
-BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-10,2.863599830449348
-BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-11,3.0268188155867737
-BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-12,2.80668667751105
-BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-01,2.6489339032585546
-BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-02,2.9470497996257228
-BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-03,3.146800809344419
-BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-04,3.329703502056325
-BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-05,3.810080037957153
-BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-06,4.081904728053631
-BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,4.432088213338736
-BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,4.3290232785144545
-BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,4.297193101111074
+BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-10,2.863598703621628
+BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-11,3.0268185769476874
+BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-12,2.8065700367093216
+BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-01,2.647726799415384
+BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-02,2.9458369908077486
+BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-03,3.1471654883246103
+BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-04,3.3302893586114157
+BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-05,3.8096853791825813
+BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-06,4.0822365077709755
+BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,4.4340268081756395
+BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,4.3246981889938585
+BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,4.302969555587577
+BSI,U2,Euro area,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-10,4.477886851717283
 BSI,DE,Germany,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-01,-3.310299003385131
 BSI,DE,Germany,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-02,-2.876791532603329
 BSI,DE,Germany,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-03,-3.1889028411860476
@@ -2810,9 +2823,10 @@ BSI,DE,Germany,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by s
 BSI,DE,Germany,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-04,1.2649464320238613
 BSI,DE,Germany,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-05,1.8833885731028177
 BSI,DE,Germany,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-06,1.9916280966676858
-BSI,DE,Germany,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,2.0930237574390276
-BSI,DE,Germany,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,1.947348917622005
-BSI,DE,Germany,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,2.2472600238603535
+BSI,DE,Germany,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,2.093023678407757
+BSI,DE,Germany,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,1.9473485753191966
+BSI,DE,Germany,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,2.2288408333458687
+BSI,DE,Germany,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-10,2.4036867593073996
 BSI,FR,France,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-01,-2.792981743867462
 BSI,FR,France,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-02,-2.2863982884198997
 BSI,FR,France,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-03,-2.0483261090441074
@@ -3011,9 +3025,10 @@ BSI,FR,France,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by se
 BSI,FR,France,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-04,2.915342503951246
 BSI,FR,France,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-05,3.1153468925326777
 BSI,FR,France,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-06,3.99762339212979
-BSI,FR,France,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,3.8463299471889645
-BSI,FR,France,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,3.8062734750754945
-BSI,FR,France,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,3.542301464150399
+BSI,FR,France,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,3.8461616566664913
+BSI,FR,France,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,3.805950902332844
+BSI,FR,France,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,3.5970612886707443
+BSI,FR,France,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-10,3.7561054684972284
 BSI,IT,Italy,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-01,-2.105486563146164
 BSI,IT,Italy,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-02,-1.9235916417185361
 BSI,IT,Italy,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-03,-1.4301458806159295
@@ -3212,9 +3227,10 @@ BSI,IT,Italy,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sec
 BSI,IT,Italy,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-04,2.9933198757473134
 BSI,IT,Italy,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-05,3.5477298028471216
 BSI,IT,Italy,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-06,3.28376464911333
-BSI,IT,Italy,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,4.051192127983594
-BSI,IT,Italy,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,4.1460898978806116
-BSI,IT,Italy,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,4.305449242657633
+BSI,IT,Italy,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,4.051177347612844
+BSI,IT,Italy,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,4.146014228346617
+BSI,IT,Italy,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,4.306098807790115
+BSI,IT,Italy,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-10,4.763304027346815
 BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-01,-3.9566527497914894
 BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-02,-4.073158033653145
 BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-03,-4.168961055955556
@@ -3410,12 +3426,13 @@ BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sec
 BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-01,3.7666004453806856
 BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-02,4.237783295031128
 BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-03,4.610394164465448
-BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-04,4.499503852985298
-BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-05,4.439082857561938
-BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-06,4.7444000849238055
-BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,5.275196298919371
-BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,5.054931463491474
-BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,5.54926104243314
+BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-04,4.50453885246076
+BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-05,4.4495752497343055
+BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-06,4.7748790709069455
+BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,5.3107239876243995
+BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,5.112233965773161
+BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,5.624338509977345
+BSI,ES,Spain,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-10,5.587559045979984
 BSI,NL,Netherlands,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-01,4.270384533096316
 BSI,NL,Netherlands,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-02,4.521871585871451
 BSI,NL,Netherlands,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-03,4.885894420754222
@@ -3614,9 +3631,10 @@ BSI,NL,Netherlands,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending 
 BSI,NL,Netherlands,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-04,5.491103772857153
 BSI,NL,Netherlands,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-05,6.585454784067335
 BSI,NL,Netherlands,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-06,7.014605583320654
-BSI,NL,Netherlands,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,8.008409177741104
-BSI,NL,Netherlands,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,8.332479955668127
-BSI,NL,Netherlands,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,7.161801060346296
+BSI,NL,Netherlands,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,8.007818177220184
+BSI,NL,Netherlands,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,8.331124846627969
+BSI,NL,Netherlands,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,7.165715812270412
+BSI,NL,Netherlands,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-10,7.2530741236561225
 BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-01,-8.967367856900388
 BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-02,-9.000968526624842
 BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-03,-8.043981268629242
@@ -3806,18 +3824,19 @@ BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by s
 BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-07,2.033742764006674
 BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-08,2.4296972526042016
 BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-09,6.138296801208276
-BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-10,5.594752319745133
-BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-11,5.5912322753036925
-BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-12,4.847727875911301
-BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-01,5.395518805992006
-BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-02,7.984743467899369
-BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-03,7.286773881863273
-BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-04,6.833188543200697
-BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-05,7.294932214230343
-BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-06,7.438937501701126
-BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,7.445909450402621
-BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,7.056169825863234
-BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,7.464133520764449
+BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-10,5.59475248380128
+BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-11,5.591232534415824
+BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-12,5.08542533855374
+BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-01,5.395372584040237
+BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-02,7.9845943735068925
+BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-03,7.286627089391073
+BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-04,6.833042371335396
+BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-05,7.294785410595717
+BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-06,7.43879050103482
+BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,7.445865991998968
+BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,7.056216792135506
+BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,7.431114389571913
+BSI,BE,Belgium,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-10,7.355671779707262
 BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-01,-0.5228062744513817
 BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-02,-0.7517334118157915
 BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-03,-1.20979161147724
@@ -4010,15 +4029,16 @@ BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by s
 BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-10,2.0298320861569907
 BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-11,2.2935468408302073
 BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2025-12,2.845378323403036
-BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-01,2.96927042209969
-BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-02,3.0635559084027264
-BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-03,3.1570180044934393
-BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-04,3.0820755143729617
-BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-05,3.490330032262312
-BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-06,3.1100535087475567
-BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,3.645059159141373
-BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,3.426484418750664
-BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,3.4998555063939563
+BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-01,2.942862256678125
+BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-02,3.0371235619152115
+BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-03,3.1305616881119436
+BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-04,3.0556384182274465
+BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-05,3.46378823252127
+BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-06,3.0831909581662265
+BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,3.6184778096812975
+BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,3.223159302454204
+BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,3.3001272973032236
+BSI,AT,Austria,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-10,3.4464125011691937
 BSI,IE,Ireland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-01,-3.51999395990793
 BSI,IE,Ireland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-02,-3.1412482573063283
 BSI,IE,Ireland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-03,-3.6631957475455335
@@ -4217,9 +4237,10 @@ BSI,IE,Ireland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by s
 BSI,IE,Ireland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-04,3.721490050845433
 BSI,IE,Ireland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-05,8.436909908790247
 BSI,IE,Ireland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-06,9.295673877891964
-BSI,IE,Ireland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,13.148525745638517
-BSI,IE,Ireland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,12.684956149715498
-BSI,IE,Ireland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,12.546972337879335
+BSI,IE,Ireland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,13.146890074614337
+BSI,IE,Ireland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,12.681633314569861
+BSI,IE,Ireland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,12.54712865495975
+BSI,IE,Ireland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-10,16.1211886517582
 BSI,PT,Portugal,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-01,1.987036176214363
 BSI,PT,Portugal,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-02,1.8551823300002157
 BSI,PT,Portugal,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-03,1.48978205913044
@@ -4418,9 +4439,10 @@ BSI,PT,Portugal,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by 
 BSI,PT,Portugal,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-04,6.201923008013388
 BSI,PT,Portugal,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-05,5.542141484978735
 BSI,PT,Portugal,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-06,5.769240444859691
-BSI,PT,Portugal,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,6.119662258405434
-BSI,PT,Portugal,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,5.66231492420155
-BSI,PT,Portugal,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,5.6922949644308
+BSI,PT,Portugal,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,6.119662279859672
+BSI,PT,Portugal,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,5.662314982785688
+BSI,PT,Portugal,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,5.676009522336978
+BSI,PT,Portugal,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-10,5.693324942941036
 BSI,FI,Finland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-01,-4.4042823051447355
 BSI,FI,Finland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-02,-4.056525659730125
 BSI,FI,Finland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-03,-3.6676799579579256
@@ -4622,6 +4644,7 @@ BSI,FI,Finland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by s
 BSI,FI,Finland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,6.0551014902126665
 BSI,FI,Finland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,5.683322817355108
 BSI,FI,Finland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,5.942150458092077
+BSI,FI,Finland,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-10,5.544351095490518
 BSI,GR,Greece,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-01,-7.271751477532673
 BSI,GR,Greece,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-02,-4.485270992409385
 BSI,GR,Greece,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2010-03,-4.115203639317732
@@ -4820,9 +4843,10 @@ BSI,GR,Greece,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by se
 BSI,GR,Greece,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-04,10.19513324985606
 BSI,GR,Greece,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-05,10.58789838274745
 BSI,GR,Greece,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-06,10.986638971392292
-BSI,GR,Greece,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,10.35304465790814
-BSI,GR,Greece,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,10.23233065038136
-BSI,GR,Greece,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,8.903874116794409
+BSI,GR,Greece,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-07,10.353049862504736
+BSI,GR,Greece,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-08,10.232339330981311
+BSI,GR,Greece,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-09,8.938077493772756
+BSI,GR,Greece,NFC loans — annual growth rate,NFC_growth,PCT,Bank lending by sector,2026-10,9.15522518214107
 BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-01,4959372.893
 BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-02,4964410.715000001
 BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-03,4977940.189
@@ -5014,16 +5038,17 @@ BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by se
 BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2025-09,6816261.785784001
 BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2025-10,6825551.666145999
 BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2025-11,6852621.9620860005
-BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2025-12,6861471.018619839
-BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-01,6890396.342627999
+BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2025-12,6861465.018619839
+BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-01,6890427.342627999
 BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-02,6900414.600101001
 BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-03,6921666.158635999
-BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-04,6924859.408792001
-BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-05,6941738.83577644
-BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-06,6969907.6054183
-BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-07,6996291.47049949
-BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-08,7005048.99105411
-BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,7030116.396657681
+BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-04,6924855.408792001
+BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-05,6941734.83577644
+BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-06,6969902.6054183
+BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-07,6996423.415799489
+BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-08,7005309.933654109
+BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,7030437.276657681
+BSI,U2,Euro area,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-10,7046380.150782409
 BSI,DE,Germany,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-01,1409894.0
 BSI,DE,Germany,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-02,1407877.0
 BSI,DE,Germany,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-03,1410246.0
@@ -5224,7 +5249,8 @@ BSI,DE,Germany,Household loans — outstanding,HH_total,EUR,Bank lending by sect
 BSI,DE,Germany,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-06,2114537.0
 BSI,DE,Germany,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-07,2119834.0
 BSI,DE,Germany,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-08,2123894.0
-BSI,DE,Germany,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,2130580.0
+BSI,DE,Germany,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,2130579.0
+BSI,DE,Germany,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-10,2130669.0
 BSI,FR,France,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-01,953698.0
 BSI,FR,France,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-02,955682.0
 BSI,FR,France,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-03,961853.0
@@ -5425,7 +5451,8 @@ BSI,FR,France,Household loans — outstanding,HH_total,EUR,Bank lending by secto
 BSI,FR,France,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-06,1579642.0
 BSI,FR,France,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-07,1585734.0
 BSI,FR,France,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-08,1583211.0
-BSI,FR,France,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,1585983.0
+BSI,FR,France,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,1585823.0
+BSI,FR,France,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-10,1587650.0
 BSI,IT,Italy,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-01,499816.0
 BSI,IT,Italy,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-02,502586.0
 BSI,IT,Italy,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-03,506552.0
@@ -5627,6 +5654,7 @@ BSI,IT,Italy,Household loans — outstanding,HH_total,EUR,Bank lending by sector
 BSI,IT,Italy,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-07,696988.0
 BSI,IT,Italy,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-08,696173.0
 BSI,IT,Italy,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,699907.0
+BSI,IT,Italy,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-10,702356.0
 BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-01,875641.0
 BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-02,874936.0
 BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-03,873521.0
@@ -5822,12 +5850,13 @@ BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector
 BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-01,708931.0
 BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-02,710970.0
 BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-03,711766.0
-BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-04,703896.0
-BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-05,706898.0
-BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-06,710576.0
-BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-07,714452.0
-BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-08,714726.0
-BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,717115.0
+BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-04,703892.0
+BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-05,706894.0
+BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-06,710570.0
+BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-07,714583.0
+BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-08,714988.0
+BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,717512.0
+BSI,ES,Spain,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-10,720979.0
 BSI,NL,Netherlands,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-01,426202.0
 BSI,NL,Netherlands,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-02,428566.0
 BSI,NL,Netherlands,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-03,429893.0
@@ -6029,6 +6058,7 @@ BSI,NL,Netherlands,Household loans — outstanding,HH_total,EUR,Bank lending by 
 BSI,NL,Netherlands,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-07,675787.0
 BSI,NL,Netherlands,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-08,678061.0
 BSI,NL,Netherlands,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,681139.0
+BSI,NL,Netherlands,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-10,683989.0
 BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-01,105061.0
 BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-02,105360.0
 BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-03,106668.0
@@ -6220,7 +6250,7 @@ BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sect
 BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2025-09,269277.0
 BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2025-10,270412.0
 BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2025-11,272152.0
-BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2025-12,273198.0
+BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2025-12,273192.0
 BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-01,273639.0
 BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-02,274158.0
 BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-03,275257.0
@@ -6229,7 +6259,8 @@ BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sect
 BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-06,277566.0
 BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-07,278676.0
 BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-08,279559.0
-BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,280180.0
+BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,280253.0
+BSI,BE,Belgium,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-10,281077.0
 BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-01,133745.0
 BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-02,133603.0
 BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-03,134980.0
@@ -6422,7 +6453,7 @@ BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sect
 BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2025-10,195449.0
 BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2025-11,195565.0
 BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2025-12,196149.0
-BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-01,195586.0
+BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-01,195617.0
 BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-02,195335.0
 BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-03,196702.0
 BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-04,196327.0
@@ -6430,7 +6461,8 @@ BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sect
 BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-06,198433.0
 BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-07,198149.0
 BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-08,198566.0
-BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,199687.0
+BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,199691.0
+BSI,AT,Austria,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-10,199468.0
 BSI,IE,Ireland,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-01,142756.0
 BSI,IE,Ireland,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-02,142102.0
 BSI,IE,Ireland,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-03,140322.0
@@ -6632,6 +6664,7 @@ BSI,IE,Ireland,Household loans — outstanding,HH_total,EUR,Bank lending by sect
 BSI,IE,Ireland,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-07,116358.0
 BSI,IE,Ireland,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-08,116804.0
 BSI,IE,Ireland,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,117566.0
+BSI,IE,Ireland,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-10,118118.0
 BSI,PT,Portugal,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-01,139267.0
 BSI,PT,Portugal,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-02,139640.0
 BSI,PT,Portugal,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-03,140106.0
@@ -6832,7 +6865,8 @@ BSI,PT,Portugal,Household loans — outstanding,HH_total,EUR,Bank lending by sec
 BSI,PT,Portugal,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-06,154610.30000000002
 BSI,PT,Portugal,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-07,156038.74
 BSI,PT,Portugal,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-08,157420.9
-BSI,PT,Portugal,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,158764.18999999997
+BSI,PT,Portugal,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,158769.06999999998
+BSI,PT,Portugal,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-10,160110.29
 BSI,FI,Finland,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-01,98595.0
 BSI,FI,Finland,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-02,98833.0
 BSI,FI,Finland,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-03,99193.0
@@ -7034,6 +7068,7 @@ BSI,FI,Finland,Household loans — outstanding,HH_total,EUR,Bank lending by sect
 BSI,FI,Finland,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-07,142868.0
 BSI,FI,Finland,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-08,143044.0
 BSI,FI,Finland,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,143080.0
+BSI,FI,Finland,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-10,143211.0
 BSI,GR,Greece,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-01,97776.0
 BSI,GR,Greece,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-02,97274.0
 BSI,GR,Greece,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2010-03,96488.0
@@ -7234,7 +7269,8 @@ BSI,GR,Greece,Household loans — outstanding,HH_total,EUR,Bank lending by secto
 BSI,GR,Greece,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-06,37949.0
 BSI,GR,Greece,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-07,37884.0
 BSI,GR,Greece,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-08,37814.0
-BSI,GR,Greece,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,37795.0
+BSI,GR,Greece,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-09,37798.0
+BSI,GR,Greece,Household loans — outstanding,HH_total,EUR,Bank lending by sector,2026-10,37798.0
 BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-01,1.640257638645437
 BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-02,1.843386017386761
 BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-03,2.2106610501824386
@@ -7424,18 +7460,19 @@ BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by s
 BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-07,2.2557593704693124
 BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-08,2.3297897372154264
 BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-09,2.504458984493807
-BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-10,2.5995041515173956
-BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-11,2.683702837471258
-BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-12,2.805653503263672
-BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-01,2.7644939285821346
-BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-02,2.799375121676384
-BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-03,2.9254761899130344
-BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-04,2.958325919963234
-BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-05,2.9939027098621063
-BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-06,2.8939252740985966
-BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,3.1006435009066635
-BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,3.1221756406654366
-BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,3.0992988472400285
+BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-10,2.5995036237195013
+BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-11,2.683702700081203
+BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-12,2.805564612670186
+BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-01,2.764615200232212
+BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-02,2.7990331037593297
+BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-03,2.9251336017824814
+BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-04,2.957923885276248
+BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-05,2.99350100448903
+BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-06,2.8935115642262588
+BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,3.1022330718317725
+BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,3.12565440358048
+BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,3.1118934623399763
+BSI,U2,Euro area,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-10,3.222976312508985
 BSI,DE,Germany,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-01,0.4785132491820221
 BSI,DE,Germany,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-02,0.37190872159462707
 BSI,DE,Germany,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-03,0.5274767966822136
@@ -7634,9 +7671,10 @@ BSI,DE,Germany,Household loans — growth rate,HH_growth,PCT,Bank lending by sec
 BSI,DE,Germany,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-04,2.206056499390474
 BSI,DE,Germany,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-05,2.1788690742534422
 BSI,DE,Germany,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-06,2.224089934572948
-BSI,DE,Germany,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,2.1881600411224778
-BSI,DE,Germany,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,2.129128487950682
-BSI,DE,Germany,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,2.1312375240719827
+BSI,DE,Germany,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,2.188160027569297
+BSI,DE,Germany,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,2.12912844613784
+BSI,DE,Germany,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,2.1590120754851894
+BSI,DE,Germany,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-10,2.071736370295807
 BSI,FR,France,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-01,3.2897880811892266
 BSI,FR,France,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-02,3.5829802976069747
 BSI,FR,France,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-03,3.938581428217902
@@ -7835,9 +7873,10 @@ BSI,FR,France,Household loans — growth rate,HH_growth,PCT,Bank lending by sect
 BSI,FR,France,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-04,0.4459531895996127
 BSI,FR,France,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-05,0.6193844385950609
 BSI,FR,France,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-06,0.7259649039121019
-BSI,FR,France,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,0.8977222962631926
-BSI,FR,France,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,0.8876997305680812
-BSI,FR,France,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,0.7864787129092887
+BSI,FR,France,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,0.8977054417830699
+BSI,FR,France,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,0.887653218464135
+BSI,FR,France,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,0.7754485268504085
+BSI,FR,France,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-10,1.3760790921790944
 BSI,IT,Italy,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-01,6.6095450630690555
 BSI,IT,Italy,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-02,7.526453074702877
 BSI,IT,Italy,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-03,7.702502807311795
@@ -8036,9 +8075,10 @@ BSI,IT,Italy,Household loans — growth rate,HH_growth,PCT,Bank lending by secto
 BSI,IT,Italy,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-04,2.8840069311256933
 BSI,IT,Italy,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-05,2.8637726194526314
 BSI,IT,Italy,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-06,2.949901596355109
-BSI,IT,Italy,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,2.895189886440619
-BSI,IT,Italy,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,3.159435411574796
-BSI,IT,Italy,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,3.2886655947250265
+BSI,IT,Italy,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,2.8951892626219777
+BSI,IT,Italy,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,3.159430789654416
+BSI,IT,Italy,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,3.2886744414734714
+BSI,IT,Italy,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-10,3.2684996265262
 BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-01,0.005316386611098345
 BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-02,0.19755027237156053
 BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-03,0.5196242585727484
@@ -8234,12 +8274,13 @@ BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by secto
 BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-01,4.625446202107852
 BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-02,4.791501724015079
 BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-03,4.736621540520791
-BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-04,4.915215806495099
-BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-05,4.904411055996838
-BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-06,3.2163861666743454
-BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,4.964822052653495
-BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,4.899301877637319
-BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,4.98117098130495
+BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-04,4.914629732194786
+BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-05,4.903830915830709
+BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-06,3.2155496724089794
+BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,4.984095754071305
+BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,4.937768381699126
+BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,5.039244970410661
+BSI,ES,Spain,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-10,5.0100031315126525
 BSI,NL,Netherlands,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-01,0.8521913477386844
 BSI,NL,Netherlands,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-02,1.4729713976314507
 BSI,NL,Netherlands,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-03,3.4332169762790743
@@ -8438,9 +8479,10 @@ BSI,NL,Netherlands,Household loans — growth rate,HH_growth,PCT,Bank lending by
 BSI,NL,Netherlands,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-04,5.839144515906725
 BSI,NL,Netherlands,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-05,5.744263439588271
 BSI,NL,Netherlands,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-06,5.835022332753859
-BSI,NL,Netherlands,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,5.8512446984795075
-BSI,NL,Netherlands,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,5.764583881603835
-BSI,NL,Netherlands,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,5.53745133278285
+BSI,NL,Netherlands,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,5.851233338088613
+BSI,NL,Netherlands,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,5.764560488066661
+BSI,NL,Netherlands,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,5.537527448338775
+BSI,NL,Netherlands,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-10,5.453425726943273
 BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-01,-2.535434080857113
 BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-02,-2.68118578092591
 BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-03,-1.9833959363268594
@@ -8630,18 +8672,19 @@ BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sec
 BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-07,1.120466809213072
 BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-08,1.185938183280233
 BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-09,1.5637959320263795
-BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-10,1.68759026260068
-BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-11,2.1750411714969164
-BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-12,2.310602510773352
-BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-01,2.0493424055435305
-BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-02,2.030772647438317
-BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-03,4.308533914688462
-BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-04,4.345121302132515
-BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-05,4.216815439933463
-BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-06,4.238463785420876
-BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,4.1771917151216975
-BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,4.271711277791579
-BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,4.081429625944621
+BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-10,1.6875902640004048
+BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-11,2.17504117377354
+BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-12,2.308356442978088
+BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-01,2.0493409853443945
+BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-02,2.030771239610285
+BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-03,4.30853248924572
+BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-04,4.345119876189796
+BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-05,4.216814015744097
+BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-06,4.23846236093568
+BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,4.177190935891684
+BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,4.271710946099683
+BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,4.109288334078398
+BSI,BE,Belgium,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-10,3.9777752204132266
 BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-01,1.396347812898835
 BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-02,1.4923340347011704
 BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-03,1.3441142701659192
@@ -8834,15 +8877,16 @@ BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sec
 BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-10,1.3009769122560133
 BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-11,1.5126912582841046
 BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2025-12,1.4645275766786758
-BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-01,1.5639439034129232
-BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-02,1.645592862453138
-BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-03,1.7180565629299371
-BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-04,1.837951228083834
-BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-05,2.0873881158372853
-BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-06,2.2238826342542373
-BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,2.01762920130919
-BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,2.200705416264781
-BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,2.166092357148175
+BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-01,1.5681045270686367
+BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-02,1.6336480956623989
+BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-03,1.7061032806494847
+BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-04,1.8259838565175102
+BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-05,2.075391431977458
+BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-06,2.2118699103955697
+BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,2.005640715089241
+BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,2.1886954160506455
+BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,2.154086424448498
+BSI,AT,Austria,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-10,2.1384097452876727
 BSI,IE,Ireland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-01,-5.946534986233165
 BSI,IE,Ireland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-02,-6.11177433001564
 BSI,IE,Ireland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-03,-5.289318467245341
@@ -9041,9 +9085,10 @@ BSI,IE,Ireland,Household loans — growth rate,HH_growth,PCT,Bank lending by sec
 BSI,IE,Ireland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-04,5.07926711744604
 BSI,IE,Ireland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-05,5.134052527878663
 BSI,IE,Ireland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-06,5.313521605859228
-BSI,IE,Ireland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,5.120119405655021
-BSI,IE,Ireland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,5.259443150952925
-BSI,IE,Ireland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,5.156383132480147
+BSI,IE,Ireland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,5.120090212295092
+BSI,IE,Ireland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,5.259384342326512
+BSI,IE,Ireland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,5.156512107390454
+BSI,IE,Ireland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-10,5.185056822122558
 BSI,PT,Portugal,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-01,4.012098398731601
 BSI,PT,Portugal,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-02,4.028013095212812
 BSI,PT,Portugal,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-03,4.075047456458036
@@ -9242,9 +9287,10 @@ BSI,PT,Portugal,Household loans — growth rate,HH_growth,PCT,Bank lending by se
 BSI,PT,Portugal,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-04,10.454590461464175
 BSI,PT,Portugal,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-05,10.491832847438642
 BSI,PT,Portugal,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-06,10.531564751475342
-BSI,PT,Portugal,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,10.631380154851232
-BSI,PT,Portugal,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,10.835215979709467
-BSI,PT,Portugal,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,10.80156858841612
+BSI,PT,Portugal,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,10.631380157136604
+BSI,PT,Portugal,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,10.835215985945101
+BSI,PT,Portugal,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,10.80497300977925
+BSI,PT,Portugal,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-10,10.811303419102192
 BSI,FI,Finland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-01,5.5542369223998245
 BSI,FI,Finland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-02,5.555822316338843
 BSI,FI,Finland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-03,5.492117760697202
@@ -9446,6 +9492,7 @@ BSI,FI,Finland,Household loans — growth rate,HH_growth,PCT,Bank lending by sec
 BSI,FI,Finland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,0.10410300853636034
 BSI,FI,Finland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,0.10380669851890456
 BSI,FI,Finland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,0.17584871892246667
+BSI,FI,Finland,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-10,0.26273023745611024
 BSI,GR,Greece,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-01,2.111271457230912
 BSI,GR,Greece,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-02,1.6096994601765502
 BSI,GR,Greece,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2010-03,0.5066911380144257
@@ -9644,9 +9691,10 @@ BSI,GR,Greece,Household loans — growth rate,HH_growth,PCT,Bank lending by sect
 BSI,GR,Greece,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-04,0.46343684117924333
 BSI,GR,Greece,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-05,1.1005050295353813
 BSI,GR,Greece,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-06,1.9667079633524098
-BSI,GR,Greece,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,1.8330160164321319
-BSI,GR,Greece,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,1.7226604720184113
-BSI,GR,Greece,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,1.7713884537462254
+BSI,GR,Greece,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-07,1.8330163462057847
+BSI,GR,Greece,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-08,1.7226610282639498
+BSI,GR,Greece,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-09,1.7767414399243897
+BSI,GR,Greece,Household loans — growth rate,HH_growth,PCT,Bank lending by sector,2026-10,1.9185842011399057
 BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2010-01,4545385.0
 BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2010-02,4568331.0
 BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2010-03,4580958.0
@@ -9743,111 +9791,112 @@ BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2017-09,762
 BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2017-10,7666219.0
 BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2017-11,7713565.0
 BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2017-12,7749170.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-01,7815806.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-02,7837444.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-03,7859880.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-04,7917725.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-05,7995385.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-06,8040137.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-07,8059460.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-08,8090034.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-09,8148628.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-10,8197936.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-11,8245877.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-12,8289433.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-01,8323768.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-02,8375839.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-03,8459410.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-04,8514452.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-05,8573349.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-06,8615239.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-07,8684905.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-08,8769922.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-09,8821677.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-10,8893408.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-11,8932915.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-12,8948122.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-01,8993517.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-02,9057617.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-03,9358681.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-04,9529276.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-05,9639496.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-06,9737299.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-07,9799538.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-08,9872841.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-09,9945373.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-10,10052671.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-11,10164714.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-12,10270102.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-01,10373589.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-02,10464719.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-03,10561082.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-04,10620813.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-05,10701124.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-06,10800639.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-07,10900931.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-08,11006609.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-09,11090741.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-10,11146351.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-11,11190957.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-12,11291612.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-01,11386619.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-02,11473925.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-03,11529531.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-04,11557454.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-05,11603914.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-06,11645068.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-07,11694915.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-08,11785906.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-09,11697786.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-10,11566717.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-11,11440840.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-12,11296033.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-01,11261287.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-02,11138160.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-03,11000962.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-04,10889041.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-05,10807916.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-06,10706043.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-07,10633051.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-08,10558438.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-09,10519242.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-10,10415864.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-11,10365477.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-12,10345578.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-01,10275867.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-02,10256861.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-03,10238739.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-04,10246986.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-05,10248018.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-06,10313636.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-07,10291747.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-08,10353305.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-09,10408480.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-10,10449786.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-11,10538782.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-12,10590975.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-01,10590037.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-02,10646943.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-03,10673105.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-04,10737319.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-05,10772442.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-06,10809812.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-07,10819576.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-08,10848436.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-09,10902997.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-10,11004166.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-11,11029100.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-12,11090495.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-01,11196574.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-02,11213312.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-03,11278092.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-04,11278885.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-05,11296503.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-06,11325136.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-07,11291868.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-08,11296114.0
-BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-09,11333724.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-01,7815657.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-02,7837284.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-03,7859845.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-04,7917935.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-05,7995261.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-06,8040116.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-07,8059414.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-08,8090243.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-09,8148498.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-10,8197785.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-11,8246067.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2018-12,8289731.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-01,8323674.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-02,8375730.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-03,8459369.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-04,8514290.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-05,8573563.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-06,8615142.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-07,8684888.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-08,8770002.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-09,8821744.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-10,8893354.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-11,8932863.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2019-12,8947999.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-01,8993733.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-02,9057549.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-03,9358492.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-04,9529097.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-05,9639493.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-06,9736966.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-07,9800134.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-08,9873458.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-09,9944825.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-10,10052708.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-11,10165015.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2020-12,10269940.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-01,10373517.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-02,10464633.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-03,10560742.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-04,10621037.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-05,10701530.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-06,10799841.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-07,10901598.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-08,11007058.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-09,11090068.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-10,11146357.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-11,11190752.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2021-12,11291816.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-01,11386954.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-02,11474241.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-03,11529243.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-04,11557357.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-05,11603746.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-06,11643801.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-07,11696280.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-08,11786789.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-09,11697263.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-10,11567024.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-11,11440464.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2022-12,11295822.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-01,11261098.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-02,11137946.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-03,11001102.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-04,10889027.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-05,10807610.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-06,10704689.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-07,10635407.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-08,10559942.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-09,10517823.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-10,10415578.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-11,10365220.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2023-12,10345335.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-01,10275620.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-02,10256700.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-03,10238569.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-04,10246886.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-05,10248144.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-06,10311513.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-07,10294098.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-08,10355359.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-09,10407190.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-10,10449421.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-11,10538555.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2024-12,10590531.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-01,10590259.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-02,10647173.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-03,10673285.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-04,10737142.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-05,10772234.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-06,10807543.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-07,10822548.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-08,10850897.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-09,10901071.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-10,11004142.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-11,11028865.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2025-12,11089857.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-01,11196458.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-02,11213180.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-03,11277711.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-04,11278844.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-05,11296308.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-06,11321746.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-07,11307088.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-08,11313495.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-09,11340075.0
+BSI,U2,Euro area,M1 — outstanding,M1,EUR,"Money, credit & banking",2026-10,11381439.0
 BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2010-01,9324051.0
 BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2010-02,9323604.0
 BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2010-03,9332304.0
@@ -9944,111 +9993,112 @@ BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2017-09,117
 BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2017-10,11804155.0
 BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2017-11,11849209.0
 BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2017-12,11858924.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-01,11911325.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-02,11920032.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-03,11947263.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-04,11997443.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-05,12070821.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-06,12149385.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-07,12133882.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-08,12159092.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-09,12193756.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-10,12261279.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-11,12301413.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-12,12366854.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-01,12401877.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-02,12455465.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-03,12535380.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-04,12606448.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-05,12675932.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-06,12714933.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-07,12783995.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-08,12889241.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-09,12922101.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-10,12976186.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-11,13005269.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-12,12978873.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-01,13053446.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-02,13139917.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-03,13487080.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-04,13643802.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-05,13800035.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-06,13908789.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-07,13991504.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-08,14036505.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-09,14153097.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-10,14252609.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-11,14349923.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-12,14474148.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-01,14581177.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-02,14661741.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-03,14758346.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-04,14811976.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-05,14908470.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-06,14988989.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-07,15108437.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-08,15200168.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-09,15257471.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-10,15362016.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-11,15415034.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-12,15491108.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-01,15600173.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-02,15662745.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-03,15725823.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-04,15799313.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-05,15850610.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-06,15933450.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-07,15994541.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-08,16144166.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-09,16198828.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-10,16146148.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-11,16131928.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-12,16050319.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-01,16073998.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-02,16063035.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-03,16032723.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-04,15982626.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-05,16000621.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-06,15981758.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-07,15964723.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-08,15956557.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-09,15991602.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-10,15983253.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-11,15998330.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-12,16099691.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-01,16093073.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-02,16115213.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-03,16168055.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-04,16211159.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-05,16240524.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-06,16364787.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-07,16371192.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-08,16469939.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-09,16546403.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-10,16581667.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-11,16684867.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-12,16764295.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-01,16763515.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-02,16825356.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-03,16829083.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-04,16884386.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-05,16916561.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-06,16930178.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-07,16929030.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-08,16934229.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-09,16989086.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-10,17082841.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-11,17170454.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-12,17200207.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-01,17305282.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-02,17333437.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-03,17439194.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-04,17449423.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-05,17523480.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-06,17612461.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-07,17615202.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-08,17647597.0
-BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-09,17717267.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-01,11910923.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-02,11919548.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-03,11947649.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-04,11997632.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-05,12070481.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-06,12149318.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-07,12134700.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-08,12159842.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-09,12192953.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-10,12259966.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-11,12301794.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2018-12,12366454.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-01,12402471.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-02,12456080.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-03,12534895.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-04,12607406.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-05,12676528.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-06,12713757.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-07,12782832.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-08,12889473.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-09,12921988.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-10,12975620.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-11,13005093.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2019-12,12978965.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-01,13055273.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-02,13141422.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-03,13488328.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-04,13643694.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-05,13799165.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-06,13908832.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-07,13992007.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-08,14036578.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-09,14151453.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-10,14252758.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-11,14349390.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2020-12,14472870.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-01,14582159.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-02,14663085.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-03,14757723.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-04,14813382.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-05,14908503.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-06,14986125.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-07,15108337.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-08,15200806.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-09,15256074.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-10,15361773.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-11,15414531.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2021-12,15490764.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-01,15602526.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-02,15665611.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-03,15726041.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-04,15800692.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-05,15850931.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-06,15930168.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-07,15994043.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-08,16143142.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-09,16198274.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-10,16147632.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-11,16128622.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2022-12,16048667.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-01,16077282.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-02,16067363.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-03,16034069.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-04,15984006.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-05,15998717.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-06,15978160.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-07,15965330.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-08,15956954.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-09,15989741.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-10,15986389.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-11,15995060.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2023-12,16096152.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-01,16094618.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-02,16119135.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-03,16167531.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-04,16215527.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-05,16240677.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-06,16357602.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-07,16370450.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-08,16470932.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-09,16543599.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-10,16584030.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-11,16681517.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2024-12,16762952.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-01,16768372.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-02,16832299.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-03,16829372.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-04,16886816.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-05,16915860.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-06,16922452.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-07,16929655.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-08,16934259.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-09,16986499.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-10,17081524.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-11,17168253.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2025-12,17194731.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-01,17312793.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-02,17342670.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-03,17439937.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-04,17451341.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-05,17521042.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-06,17616678.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-07,17637772.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-08,17661800.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-09,17717521.0
+BSI,U2,Euro area,M3 — outstanding,M3,EUR,"Money, credit & banking",2026-10,17764067.0
 FM,U2,Euro area,Euribor 1-month,EURIBOR1M,PCT,Interest rates,2010-01,0.437
 FM,U2,Euro area,Euribor 1-month,EURIBOR1M,PCT,Interest rates,2010-02,0.42145
 FM,U2,Euro area,Euribor 1-month,EURIBOR1M,PCT,Interest rates,2010-03,0.4061739
@@ -17030,6 +17080,7 @@ FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-11-2
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-11-23,2.65
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-11-24,2.65
 FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-11-25,2.65
+FM,U2,Euro area,ECB main refinancing rate,ECB_MRR,PCT,ECB policy rates,2026-11-26,2.65
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-01,0.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-02,0.25
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2010-01-03,0.25
@@ -23203,6 +23254,7 @@ FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-11-2
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-11-23,2.5
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-11-24,2.5
 FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-11-25,2.5
+FM,U2,Euro area,ECB deposit facility rate,ECB_DFR,PCT,ECB policy rates,2026-11-26,2.5
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-01,1.75
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-02,1.75
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2010-01-03,1.75
@@ -29376,6 +29428,7 @@ FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-11-2
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-11-23,2.9
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-11-24,2.9
 FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-11-25,2.9
+FM,U2,Euro area,ECB marginal lending rate,ECB_MLF,PCT,ECB policy rates,2026-11-26,2.9
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-01,2.78
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-02,2.77
 MIR,U2,Euro area,NFC lending rate — new business,NFC_rate_new,PCT,Interest rates,2010-03,2.75
